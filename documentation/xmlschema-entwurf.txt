@@ -1,0 +1,28 @@
+Strecke
+	- Punkte: Punkt
+	- Titel: String
+	- Länge: Integer
+	- Erstelldatum: Datum
+	- Autor: String
+	- Beschreibung: Text
+	- Typ: Tracktyp
+	- Qualität: Integer
+
+Punkt:
+	- Längengrad: Double
+	- Breitengrad: Double
+	- Postleitzahl: Integer
+
+Tracktyp:
+	- Bezeichnung: String ("Zu Fuß", "Fahrrad", "Tier", "Motor", "Winter", "Andere")
+
+POI:
+	- Name: String
+	- Typ: Ortstyp
+	- Position: Punkt
+	- Radius: Integer
+	- [Beginn: Timestamp]
+	- [Ende: Timestamp]
+
+POITyp:
+	- Bezeichnung: String ("Haus", "Park", "See", "Strand")
