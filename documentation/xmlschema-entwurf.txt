@@ -1,26 +1,35 @@
 Strecke
-	- Punkte: Punkt
-	- Titel: String
-	- Länge: Integer
+	- [Name: String]
+	- Punkte: Punkt+
+	- [Länge: Integer]
 	- Erstelldatum: Datum
 	- Autor: String
-	- Beschreibung: Text
-	- Typ: Tracktyp
-	- Qualität: Integer
+	- [Beschreibung: Text]
+	- Trackbezeichnung: Trackezeichnung
+	- Tracktyp: Tracktyp
+	- [Qualität: Integer = 0]
 
 Punkt:
 	- Längengrad: Double
 	- Breitengrad: Double
-	- Postleitzahl: Integer
+	- [Adresse: Adresse]
 
-Tracktyp:
+Trackbezeichnung:
 	- Bezeichnung: String ("Zu Fuß", "Fahrrad", "Tier", "Motor", "Winter", "Andere")
 
+Tacktyp:
+	- Bezeichnung: String ("Roundtrip", "One Way")
+
+Adresse:
+	- [Straße: String]
+	- [Hausnummer: String]
+	- [Postleitzahl: String]
+	- [Land: String]
+
 POI:
-	- Name: String
-	- Typ: Ortstyp
+	- [Name: String]
+	- POITyp: POITyp
 	- Position: Punkt
-	- Radius: Integer
 	- [Beginn: Timestamp]
 	- [Ende: Timestamp]
 

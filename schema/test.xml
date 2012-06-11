@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<track xmlns="http://www.w3schools.com"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://cochu.dyndns.org schema.xsd">
+
+  <name>Testtrack</name>
+  <length>7834659203</length>
+  <createTimestamp>2012-06-11T15:41:52+01:00</createTimestamp>
+  <author>Eike Cochu</author>
+  <description>This is a test track xml file for validation purposes only.</description>
+  <motionType>Motor</motionType>
+  <trackType>One Way Trip</trackType>
+  <quality>5</quality>
+  <points>
+  	<point>
+  		<lon>52.123566</lon>
+  		<lat>8.7526482</lat>
+  		<address>
+  			<street>Graefenberger Weg</street>
+  			<streetnumber>1A</streetnumber>
+  			<city>Berlin</city>
+  			<zipcode>12205</zipcode>
+  			<country>Germany</country>
+  		</address>
+  	</point>
+  	<point>
+  		<lon>72.123566</lon>
+  		<lat>9.7526482</lat>
+  	</point>
+  	<point>
+  		<lon>12.123566</lon>
+  		<lat>23.7545682</lat>
+  	</point>
+  	<point>
+  		<lon>64.122768</lon>
+  		<lat>5.7526482</lat>
+  	</point>
+  	<point>
+  		<lon>22.112566</lon>
+  		<lat>19.787682</lat>
+  	</point>
+  </points>
+
+</track>
