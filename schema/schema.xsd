@@ -3,10 +3,10 @@
 
 	<!-- Ein Koordinatenpunkt. optional: address -->
 	<xsd:complexType name="point">
+                <xsd:attribute name="lon" type="xsd:decimal"/>
+                <xsd:attribute name="lat" type="xsd:decimal"/>
+                <xsd:attribute name="ele" type="xsd:decimal"/>
 		<xsd:sequence>
-			<xsd:element name="lon" type="xsd:decimal"/>
-			<xsd:element name="lat" type="xsd:decimal"/>
-            <xsd:element name="ele" type="xsd:decimal"/>
 			<xsd:element name="address" type="address" minOccurs="0"/>
 		</xsd:sequence>
 	</xsd:complexType>
@@ -23,101 +23,102 @@
 	</xsd:complexType>
 
 	<!-- Eine Längenangabe mit Dezimalzahl und Längeneinheit. Default ist Meter (m). -->
-    <xsd:complexType name="length">
-        <xsd:simpleContent>
-            <xsd:extension base="xsd:decimal">
-                <xsd:attribute name="unit" type="xsd:string" default="m" />
-            </xsd:extension>
-        </xsd:simpleContent>
-    </xsd:complexType>
+        <xsd:complexType name="length">
+                <xsd:simpleContent>
+                        <xsd:extension base="xsd:decimal">
+                                <xsd:attribute name="unit" type="xsd:string" default="m" />
+                        </xsd:extension>
+                </xsd:simpleContent>
+        </xsd:complexType>
+
+        <!-- Qualitätsangabe eines Tracks -->
+        <xsd:simpleType name="quality">
+                <xsd:restriction base="xsd:integer">
+                        <xsd:minInclusive value="0"/>
+                        <xsd:maxInclusive value="5"/>
+                </xsd:restriction>
+        </xsd:simpleType>
 	
 	<!-- Track-Element. optional: name, totalLength, description, trackTypes, trackAttributes, trackCharacters, trackRoadbeds, 
 	trackRoads, quality, totalAscend, totalDescend, altitudeMax, altitudeMin, altitudeDifference -->
 	<xsd:element name="track">
 		<xsd:complexType>
-    	<xsd:sequence>
-    		<xsd:element name="name" type="xsd:string" minOccurs="0"/>
-    		<xsd:element name="totalLength" type="length" minOccurs="0"/>
-    		<xsd:element name="createTimestamp" type="xsd:dateTime"/>
-    		<xsd:element name="author" type="xsd:string"/>
-    		<xsd:element name="description" type="xsd:string" minOccurs="0"/>
-    		<xsd:element name="trackProperty">
-    			<xsd:simpleType>
-    					<xsd:restriction base="xsd:string">
-    					    <xsd:enumeration value="Round Trip"/>
-    				        <xsd:enumeration value="One Way Trip"/>
-    					</xsd:restriction>
-					</xsd:simpleType>
-    		</xsd:element>
-    		<xsd:element name="trackTypes" minOccurs="0">
-    			<xsd:complexType>
-    				<xsd:sequence>
-    					<xsd:element name="trackType" type="xsd:string" maxOccurs="unbounded"/>
-    				</xsd:sequence>
-    			</xsd:complexType>
-    		</xsd:element>
-    		<xsd:element name="trackAttributes" minOccurs="0">
-    			<xsd:complexType>
-    				<xsd:sequence>
-    					<xsd:element name="trackAttribute" type="xsd:string" maxOccurs="unbounded"/>
-    				</xsd:sequence>
-    			</xsd:complexType>
-    		</xsd:element>
-    		<xsd:element name="trackCharacters" minOccurs="0">
-    			<xsd:complexType>
-    				<xsd:sequence>
-    					<xsd:element name="trackCharacter" type="xsd:string" maxOccurs="unbounded"/>
-    				</xsd:sequence>
-    			</xsd:complexType>
-    		</xsd:element>
-    		<xsd:element name="trackRoadbeds" minOccurs="0">
-    			<xsd:complexType>
-    				<xsd:sequence>
-    					<xsd:element name="trackRoadbed" type="xsd:string" maxOccurs="unbounded"/>
-    				</xsd:sequence>
-    			</xsd:complexType>
-    		</xsd:element>
-    		<xsd:element name="trackRoads" minOccurs="0">
-    			<xsd:complexType>
-    				<xsd:sequence>
-    					<xsd:element name="trackRoad" type="xsd:string" maxOccurs="unbounded"/>
-    				</xsd:sequence>
-    			</xsd:complexType>
-    		</xsd:element>
-    		<xsd:element name="quality" minOccurs="0">
-    			<xsd:simpleType>
-    				<xsd:restriction base="xsd:integer">
-    					<xsd:minInclusive value="0"/>
-    					<xsd:maxInclusive value="5"/>
-    				</xsd:restriction>
-    			</xsd:simpleType>
-    		</xsd:element>
-    		<xsd:element name="totalAscend" type="length" minOccurs="0"/>
-    		<xsd:element name="totalDescend" type="length" minOccurs="0"/>
-    		<xsd:element name="altitudeMax" type="length" minOccurs="0"/>
-    		<xsd:element name="altitudeMin" type="length" minOccurs="0"/>
-    		<xsd:element name="altitudeDifference" type="length" minOccurs="0"/>
-    		<xsd:element name="points">
-    			<xsd:complexType>
-    				<xsd:sequence>
-    					<xsd:element name="point" type="point" maxOccurs="unbounded"/>
-    				</xsd:sequence>
-    			</xsd:complexType>
-    		</xsd:element>
-    	</xsd:sequence>
-    </xsd:complexType>
+                	<xsd:sequence>
+                		<xsd:element name="description" type="xsd:string" minOccurs="0"/>
+                		<xsd:element name="trackProperty">
+                			<xsd:simpleType>
+        					<xsd:restriction base="xsd:string">
+                					<xsd:enumeration value="Round Trip"/>
+                                                        <xsd:enumeration value="One Way Trip"/>
+        					</xsd:restriction>
+    					</xsd:simpleType>
+                		</xsd:element>
+                		<xsd:element name="trackTypes" minOccurs="0">
+                			<xsd:complexType>
+                				<xsd:sequence>
+                					<xsd:element name="trackType" type="xsd:string" maxOccurs="unbounded"/>
+                				</xsd:sequence>
+                			</xsd:complexType>
+                		</xsd:element>
+                		<xsd:element name="trackAttributes" minOccurs="0">
+                			<xsd:complexType>
+                				<xsd:sequence>
+                					<xsd:element name="trackAttribute" type="xsd:string" maxOccurs="unbounded"/>
+                				</xsd:sequence>
+                			</xsd:complexType>
+                		</xsd:element>
+                		<xsd:element name="trackCharacters" minOccurs="0">
+                			<xsd:complexType>
+                				<xsd:sequence>
+                					<xsd:element name="trackCharacter" type="xsd:string" maxOccurs="unbounded"/>
+                				</xsd:sequence>
+                			</xsd:complexType>
+                		</xsd:element>
+                		<xsd:element name="trackRoadbeds" minOccurs="0">
+                			<xsd:complexType>
+                				<xsd:sequence>
+                					<xsd:element name="trackRoadbed" type="xsd:string" maxOccurs="unbounded"/>
+                				</xsd:sequence>
+                			</xsd:complexType>
+                		</xsd:element>
+                		<xsd:element name="trackRoads" minOccurs="0">
+                			<xsd:complexType>
+                				<xsd:sequence>
+                					<xsd:element name="trackRoad" type="xsd:string" maxOccurs="unbounded"/>
+                				</xsd:sequence>
+                			</xsd:complexType>
+                		</xsd:element>
+                		<xsd:element name="points">
+                			<xsd:complexType>
+                				<xsd:sequence>
+                					<xsd:element name="point" type="point" maxOccurs="unbounded"/>
+                				</xsd:sequence>
+                			</xsd:complexType>
+                		</xsd:element>
+                	</xsd:sequence>
+                        <xsd:attribute name="trackName" type="xsd:string"/>
+                        <xsd:attribute name="author" type="xsd:string"/>
+                        <xsd:attribute name="totalLength" type="length"/>
+                        <xsd:attribute name="totalAscend" type="length"/>
+                        <xsd:attribute name="totalDescend" type="length"/>
+                        <xsd:attribute name="altitudeMax" type="length"/>
+                        <xsd:attribute name="altitudeMin" type="length"/>
+                        <xsd:attribute name="altitudeDifference" type="length"/>
+                        <xsd:attribute name="quality" type="quality"/>
+                        <xsd:attribute name="createTimestamp" type="xsd:dateTime" use="required"/>
+                </xsd:complexType>
 	</xsd:element>
 
 	<!-- Ein POI. Optional: beginTimestamp, endTimestamp (falls es ein zeitbegrenztes Event ist) -->
 	<xsd:element name="pointOfInterest">
 		<xsd:complexType>
 			<xsd:sequence>
-				<xsd:element name="name" type="xsd:string" minOccurs="0"/>
 				<xsd:element name="position" type="point"/>
-				<xsd:element name="type" type="xsd:string"/>
-				<xsd:element name="beginTimestamp" type="xsd:dateTime" minOccurs="0"/>
-				<xsd:element name="endTimestamp" type="xsd:dateTime" minOccurs="0"/>
 			</xsd:sequence>
+                        <xsd:attribute name="name" type="xsd:string"/>
+                        <xsd:attribute name="type" type="xsd:string" use="required"/>
+                        <xsd:attribute name="beginTimestamp" type="xsd:dateTime"/>
+                        <xsd:attribute name="endTimestamp" type="xsd:dateTime"/>
 		</xsd:complexType>
 	</xsd:element>
 
