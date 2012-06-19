@@ -6,6 +6,7 @@
 		<xsd:sequence>
 			<xsd:element name="lon" type="xsd:decimal"/>
 			<xsd:element name="lat" type="xsd:decimal"/>
+            <xsd:element name="ele" type="xsd:decimal"/>
 			<xsd:element name="address" type="address" minOccurs="0"/>
 		</xsd:sequence>
 	</xsd:complexType>
@@ -22,15 +23,13 @@
 	</xsd:complexType>
 
 	<!-- Eine Längenangabe mit Dezimalzahl und Längeneinheit. Default ist Meter (m). -->
-	<xs:element name="length">
-	  <xs:complexType>
-	    <xs:simpleContent>
-	      <xs:extension base="xs:decimal">
-	        <xs:attribute name="unit" type="xs:string" default="m" />
-	      </xs:extension>
-	    </xs:simpleContent>
-	  </xs:complexType>
-	</xs:element>
+    <xs:complexType name="length">
+        <xs:simpleContent>
+            <xs:extension base="xs:decimal">
+                <xs:attribute name="unit" type="xs:string" default="m" />
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
 	
 	<!-- Track-Element. optional: name, totalLength, description, trackTypes, trackAttributes, trackCharacters, trackRoadbeds, 
 	trackRoads, quality, totalAscend, totalDescend, altitudeMax, altitudeMin, altitudeDifference -->
@@ -44,10 +43,10 @@
     		<xsd:element name="description" type="xsd:string" minOccurs="0"/>
     		<xsd:element name="trackProperty">
     			<xsd:simpleType>
-					  <xsd:restriction base="xsd:string">
-					    <xsd:enumeration value="Round Trip"/>
-					    <xsd:enumeration value="One Way Trip"/>
-					  </xsd:restriction>
+    					<xsd:restriction base="xsd:string">
+    					    <xsd:enumeration value="Round Trip"/>
+    				        <xsd:enumeration value="One Way Trip"/>
+    					</xsd:restriction>
 					</xsd:simpleType>
     		</xsd:element>
     		<xsd:element name="trackTypes" minOccurs="0">
