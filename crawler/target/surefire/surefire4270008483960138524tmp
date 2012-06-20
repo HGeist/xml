@@ -1,0 +1,5 @@
+#surefire
+#Wed Jun 20 01:34:48 CEST 2012
+user.dir=/home/cnk/xmlproject/crawler
+localRepository=/home/cnk/.m2/repository
+basedir=/home/cnk/xmlproject/crawler
