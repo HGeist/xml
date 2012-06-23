@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Twitter Query Test</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="jquery.twitter.search.js"></script>
+	<script>
+	$(document).ready(function() {
+		$("#q1").click(function() {
+			$("#q1-res").empty().twitterSearch("Berlin").slideDown();
+		});
+		$("#q2").click(function() {
+			$("#q2-res").empty().twitterSearch($("#q2-query").val()).slideDown();
+		});
+	});
+	</script>
+	<style>
+		table { width: 100%; border: 1px solid black; }
+		th { width: 50%; }
+		.result {
+			margin: 5px;
+			height: 300px;
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<h1>Twitter Query Test</h1>
+	<p>Twitter bietet 3 verschiedene API-Endpoints an:
+		<ol>
+			<li>Search API</li>
+			<li>REST API</li>
+			<li>Streaming API</li>
+		</ol>
+	Für unsere Zwecke sollte die Search API brauchbar sein. Mit jeder API sind allerdings nur die letzten Tweets erreichbar (letzte Woche maximal).</p>
+	<p>Die Search API bietet viele verschiedene Parameter, die alle HTML encoded werden müssen. Argumente werden durch Leerzeichen (%20) voneinander getrennt. 
+		Beispielparameter sind : #hastag und @mention, also z.B. ist eine Query, die alle letzten Tweets über Berlin folgendermaßen aufgebaut: 
+		<code>http://search.twitter.com/search.json?callback=?&q=%40Berlin</code>
+	</p>
+	<p>In diesem Beispiel wird das Twitter Plugin für jQuery benutzt (ist ne ganze Ecke einfacher zu benutzen und sieht auch noch schicker aus)</p>
+	<table>
+		<thead>
+			<tr>
+				<th><button type="button" id="q1">Beispielquery ausprobieren</button></th>
+				<th>
+					<form onsubmit="return false">
+						<input type="text" name="q2-query" id="q2-query" />
+						<button type="button" id="q2">Eigene Query ausprobieren</button>
+					</form>
+				</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td id="q1-res" class="result"></td>
+				<td id="q2-res" class="result"></td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
