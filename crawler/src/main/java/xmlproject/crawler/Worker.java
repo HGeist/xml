@@ -37,42 +37,108 @@ public class Worker implements Runnable {
 				String inputLine;
 				boolean heuristic = false, isCoordinateLine = false;
 				int heuristicCounter = 0;
+				
+				in.readLine();
+				
+				boolean readCoords = false;
+				boolean foundCoord = false;
+				boolean firstCoord = true;
+				boolean isCoordLine = false;
+				
+				
 				while ((inputLine = in.readLine()) != null) {
-					if (inputLine.contains("<LineString>")) {
-						heuristic = true;
-					}
-					if (heuristic) {
-						if (inputLine.contains("<coordinates>")) {
-							isCoordinateLine = true;
-							kml.append(inputLine).append(("|"));
-							continue;
-						}
-					}
-					if(inputLine.contains("</coordinates>")) {
-						heuristic = false;
-						isCoordinateLine = false;
-						heuristicCounter = 0;
-					}
-					if(isCoordinateLine && ((++heuristicCounter)%10) != 0 ) {
+//					if (inputLine.contains("<LineString>")) {
+//						heuristic = true;
+//					}
+//					if (heuristic) {
+//						if (inputLine.contains("<coordinates>")) {
+//							isCoordinateLine = true;
+//							kml.append(inputLine).append(("|"));
+//							continue;
+//						}
+//					}
+//					if(inputLine.contains("</coordinates>")) {
+//						heuristic = false;
+//						isCoordinateLine = false;
+//						heuristicCounter = 0;
+//					}
+//					
+					
+					
+//					kml.append(inputLine).append((" "));
+					
+					
+					if (inputLine.contains("<MultiGeometry>")) {
+						readCoords = true;
+						
+						kml.append("<coordinates>");
 						continue;
 					}
 					
-					kml.append(inputLine).append((" "));
+					if (readCoords) {
+						if (inputLine.contains("</MultiGeometry>")) {
+							readCoords = false;
+							kml.append("</coordinates>");
+							continue;
+						}
+						
+						if(foundCoord) {
+							if (inputLine.contains("</coordinates>")) {
+								inputLine = inputLine.replace("</coordinates>", "");
+								foundCoord = false;
+							}
+							
+							if (inputLine.length() > 0) {
+								isCoordLine = true;
+							}
+						}
+						else if(inputLine.contains("<coordinates>")) {
+							foundCoord = true;
+							
+							if (inputLine.contains("</coordinates>")) {
+								foundCoord = false;
+								inputLine = inputLine.replace("</coordinates>", "");
+							}
+							
+							inputLine = inputLine.replace("<coordinates", "");
+							
+							if (inputLine.length() > 0) {
+								isCoordLine = true;
+							}
+						}
+							
+						if(isCoordLine) {
+							if(((++heuristicCounter)%10) == 0 ) {
+								if (!firstCoord) {
+									kml.append("|").append(inputLine);	
+								}
+								else {
+									firstCoord = false;
+									kml.append(inputLine);
+								}
+							}
+							isCoordLine = false;
+						}
+					} 
+					else kml.append(inputLine);
 				}
+				
+				
 				in.close();
-				String pattern = "(<Placemark>.*?</Placemark>)";
-				Pattern r = Pattern.compile(pattern);
-				Matcher m = r.matcher(kml);
-				StringBuilder allCoordinates = new StringBuilder();
-				while (m.find()) {
-					allCoordinates.append(m.group(1));
-				}
+//				String pattern = "(<Placemark>.*?</Placemark>)";
+//				Pattern r = Pattern.compile(pattern);
+//				Matcher m = r.matcher(kml);
+//				StringBuilder allCoordinates = new StringBuilder();
+//				while (m.find()) {
+//					allCoordinates.append(m.group(1));
+//				}
 
 				StringBuilder oldText = new StringBuilder();
 				StringBuilder newText = new StringBuilder();
 				
 				oldText.append("<downloadLink>").append(urlStr).append("</downloadLink>");
-				newText.append("<downloadLink>").append(urlStr).append("</downloadLink>").append(allCoordinates);
+				newText.append("<downloadLink>").append(urlStr).append("</downloadLink>").append(kml);
+//				newText.append("<downloadLink>").append(urlStr).append("</downloadLink>").append(allCoordinates);
 				data = data.replace(oldText, newText);
 				
 				crawler.addResult(data, id);

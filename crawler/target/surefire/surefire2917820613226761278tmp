@@ -1,5 +1,5 @@
 #surefire
-#Tue Jun 19 23:32:31 CEST 2012
+#Sun Jun 24 14:48:11 CEST 2012
 testClassesDirectory=/home/cnk/xmlproject/crawler/target/test-classes
 classPathUrl.4=/home/cnk/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar
 classPathUrl.3=/home/cnk/.m2/repository/org/apache/httpcomponents/httpcore/4.2-beta1/httpcore-4.2-beta1.jar

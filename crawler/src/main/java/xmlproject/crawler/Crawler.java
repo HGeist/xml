@@ -47,12 +47,14 @@ public class Crawler {
 
 	private String key = "";
 	private String path = "";
+	private int iterations = 0;
 
 	private StringBuffer result = new StringBuffer();
 
-	public Crawler(String key, String path) {
+	public Crawler(String key, String path, int iterations) {
 		this.key = key;
 		this.path = path;
+		this.iterations = iterations;
 	}
 
 	public void crawl() {
@@ -66,15 +68,16 @@ public class Crawler {
 			GZIPOutputStream gzipOut = new GZIPOutputStream(fos);
 			gzipOut.write("<crawl>".getBytes());
 			int j = 1;
-			for (int i = 1; i <= 1000; ++i) {
+			for (int i = 1; i <= iterations; ++i) {
 				long start2 = System.currentTimeMillis();
 				System.out.println("ResultPage: " + i);
 				List<String> fileIds = getFileIds(i);
 				String query = "<query id = \"" + (j++) + "\">";
 				gzipOut.write(query.getBytes());
-				String track = getTracks(fileIds);
+				StringBuffer track = getTracks(fileIds);
 				long bla = System.currentTimeMillis();
-				gzipOut.write(track.getBytes());
+				gzipOut.write(track.toString().getBytes());
+				this.result = new StringBuffer();
 				System.out.println("write time: "
 						+ (System.currentTimeMillis() - bla));
 				gzipOut.write("</query>".getBytes());
@@ -94,7 +97,7 @@ public class Crawler {
 		}
 	}
 
-	private String getTracks(List<String> fileIds)
+	private StringBuffer getTracks(List<String> fileIds)
 			throws ClientProtocolException, IOException, InterruptedException {
 		HttpClient httpclient = new DefaultHttpClient();
 
@@ -149,8 +152,7 @@ public class Crawler {
 			}
 		}
 
-		return result.toString().replace(
-				"<?xml version=\"1.0\" encoding=\"UTF-8\"?>", "");
+		return result;
 	}
 
 	private List<String> getFileIds(int resultPage)
@@ -196,7 +198,7 @@ public class Crawler {
 	}
 
 	public static void main(String[] args) {
-		Crawler crawler = new Crawler(args[0], args[1]);
+		Crawler crawler = new Crawler(args[0], args[1], Integer.valueOf(args[2]));
 		crawler.crawl();
 	}
 
