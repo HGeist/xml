@@ -1,0 +1,59 @@
+\documentclass[10pt,a4paper]{scrartcl}
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{fancyhdr}
+\usepackage[a4paper,inner=3.5cm,outer=3cm,top=4cm,bottom=3cm,pdftex]{geometry}
+
+\setkomafont{sectioning}{\normalfont\bfseries}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\title{XML-Projekt SoSe 2012}
+\subtitle{GPSies.org, DBPedia.org, Twitter.com, XML/XSD/XSLT\vspace*{.7cm}}
+\author{Gruppe 11\\\hfill\\Eike Cochu, Samer El-Safadi, Hannes Geist,\\Cenc Gündogan, Michael Pluhatsch}
+\date{\today}
+\fancyfoot[C]{\thepage}
+\fancyhead[L]{XML SoSe2012}
+\fancyhead[R]{Cochu, El-Safadim, Geist, Gündogan, Pluhatsch, \today}
+
+\setlength\parskip{\medskipamount}
+\setlength\parindent{0pt}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+\vspace*{2cm}
+\tableofcontents
+\newpage
+\renewcommand{\baselinestretch}{1.5}
+\selectfont
+
+\section{Aufgabenstellung und Organisation}
+Gruppenleiter: Hannes Geist\\
+Dokumentierer: Eike Cochu
+
+\subsection{Aufgabenstellung}
+Durch den XML-Endpoints von gpsies.com 100.000 Wanderstrecken laden, per XSLT-Schema in ein eigens entwickeltes XSD-Schema transformieren und in einer geeigneten XML-Datenbank speichern. Zu diesen Strecken soll per SPARQL der Endpoint von dbpedia.org abgefragt und alle auf (oder an) der Strecke liegenden Sehenswürdigkeiten abgefragt werden können. Ein HTML-Formular (oder ähnliches) entwickeln, mit dem die XML-Datenbank abgefragt werden kann. Das Ergebnis der Abfrage soll wiederum per XSLT in HTML transformiert und zusammen mit den vorhandenen Sehenswürdigkeiten und den zu diesen Sehenswürdigkeiten vorhandenen Tweets von Twitter.com angezeigt werden.
+
+\subsection{Aufgabenverteilung}
+\begin{itemize}
+\item Hannes Geist: XSLT-Transformierungen und Füllen der XML-Datenbank
+\item Cenk Gündogan: Abfrage der Strecken von gpsies.org 
+\item Eike Cochu: Erstellung des XSD-Schemas, Bereitstellung eines Servers, Dokumentation
+\item Samer El-Safadi: SPARQL-Abfrage der Sehenswürdigkeiten von dbpedia.org
+\item Michael Pluhatsch: HTML-Formular mit PHP, Abfrage der XML-Datenbank
+\end{itemize}
+
+Organisatorisches: Zur Gruppenkoordinierung hat sich unsere Gruppe jede Woche Sonntags beim Gruppenleiter Hannes Geist getroffen und das weitere Vorgehen besprochen.
+
+\section{Probleme}
+
+\section{Datenbank-Info}
+Verwendete Datenbanksoftware: BaseX XML-Datenbank
+Anzahl der vorhandenen Datensätze:
+
+
+\end{document}
