@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tracks>
+    
+        <track trackName="5 KM"
+          author="Sascha607"
+          createTimestamp="2012-05-26 13:13:55.0"
+          totalLength="4986.12776640175"
+          altitudeMax="97"
+          altitudeMin="88"
+          altitudeDifference="9">
+      <trackProperty>roundTrip</trackProperty>
+      <trackTypes>
+         <trackType>jogging</trackType>
+      </trackTypes>
+      <trackAttributes/>
+      <trackCharacters/>
+      <trackRoadbeds/>
+      <trackRoads/>
+      <trackTypes>
+         <trackType>jogging</trackType>
+      </trackTypes>
+      <points/>
+   </track>
+        <track trackName="Spechserholz gr"
+          createTimestamp="2012-05-26 13:32:38.0"
+          totalLength="8698.18844034064"
+          altitudeMax="63"
+          altitudeMin="42"
+          altitudeDifference="21">
+      <trackProperty>roundTrip</trackProperty>
+      <trackTypes>
+         <trackType>trekking</trackType>
+         <trackType>jogging</trackType>
+      </trackTypes>
+      <trackAttributes/>
+      <trackCharacters/>
+      <trackRoadbeds/>
+      <trackRoads/>
+      <trackTypes>
+         <trackType>trekking</trackType>
+         <trackType>jogging</trackType>
+      </trackTypes>
+      <points/>
+   </track>
+    
+</tracks>
