@@ -68,11 +68,11 @@
 				<xsl:value-of select="trackProperty" />
 			</trackProperty>
 		</xsl:if>
-		<xsl:if test="description">
+		<!--<xsl:if test="description">-->
 			<description>
-				<xsl:value-of select="description" />
+				<xsl:value-of select="*[local-name()='kml']/*[local-name()='Document']/*[local-name()='Placemark']/*[local-name()='description']" />
 			</description>
-		</xsl:if>
+		<!--</xsl:if>-->
 		<trackTypes>
 			<xsl:for-each select="trackTypes/trackType">
 				<trackType>
@@ -117,28 +117,52 @@
 		</trackTypes>
 		<points>
 			<!--<xsl:value-of select="*[local-name()='kml']/*[local-name()='Document']/*[local-name()='Placemark']/*[local-name()='coordinates']"/>-->
-			<xsl:analyze-string select="*[local-name()='kml']/*[local-name()='Document']/*[local-name()='Placemark']/*[local-name()='coordinates']" regex="[|](.*?)[|]" flags="x">
+			<xsl:for-each select="tokenize(*[local-name()='kml']/*[local-name()='Document']/*[local-name()='Placemark']/*[local-name()='coordinates'],
+			'\|')">
+				<xsl:variable name="selectThis" select="." />
+				
+				<point>
+					<xsl:for-each select="tokenize($selectThis, ',')">
+						<xsl:if test="position() = 1">
+							<xsl:attribute name="lon">
+								<xsl:value-of select="."/>
+							</xsl:attribute>
+						</xsl:if>
+						<xsl:if test="position() = 2">
+							<xsl:attribute name="lat">
+								<xsl:value-of select="."/>
+							</xsl:attribute>
+						</xsl:if>
+						<xsl:if test="position() = 3">
+							<xsl:attribute name="ele">
+								<xsl:value-of select="."/>
+							</xsl:attribute>
+						</xsl:if>
+					</xsl:for-each>
+				</point>
+			</xsl:for-each>
+			<!--<xsl:analyze-string select="*[local-name()='kml']/*[local-name()='Document']/*[local-name()='Placemark']/*[local-name()='coordinates']" regex="\|?([0-9]+\.[0-9]+,?){3}\|?" flags="x">
 				<xsl:matching-substring>
-					<xsl:element name="point">
-						<xsl:analyze-string select="regex-group(1)" regex="([^,]*?)[,]" flags="x">
+					<xsl:element name="point">-->
+						<!--<xsl:analyze-string select="regex-group(1)" regex=",?(.+?),?" flags="x">
 							<xsl:matching-substring>
 								<xsl:attribute name="lon">
 									<xsl:value-of select="regex-group(1)"/>
 								</xsl:attribute>
+								<xsl:attribute name="lat">
+									<xsl:value-of select="regex-group(2)"/>
+								</xsl:attribute>
+								<xsl:attribute name="ele">
+									<xsl:value-of select="regex-group(3)"/>
+								</xsl:attribute>
 							</xsl:matching-substring>
-						</xsl:analyze-string>
-						<!--<xsl:attribute name="lon">
-							<xsl:value-of select="regex-group(1)"/>
-						</xsl:attribute>-->
-						<xsl:attribute name="lat">
-							<xsl:value-of select="regex-group(1)"/>
-						</xsl:attribute>
-						<xsl:attribute name="ele">
-							<xsl:value-of select="regex-group(1)"/>
-						</xsl:attribute>
+						</xsl:analyze-string>-->
+						
+							<!--<xsl:value-of select="regex-group(1)" />
+						
 					</xsl:element>
 				</xsl:matching-substring>
-			</xsl:analyze-string>
+			</xsl:analyze-string>-->
 			<!-- old regex regex="[|](\d\.\d){1}[,](\d\.\d){1}[,](\d\.\d){1}[|]" -->
 		</points>
 	</track>
