@@ -116,22 +116,30 @@
 			</xsl:for-each>
 		</trackTypes>
 		<points>
-			<xsl:value-of select="kml/Document/name"/>
-			<!--<xsl:analyze-string select="kml/Document/Placemark/coordinates" regex="[|](\d\.\d){1}[,](\d\.\d){1}[,](\d\.\d){1}[|]" flags="x">
+			<!--<xsl:value-of select="*[local-name()='kml']/*[local-name()='Document']/*[local-name()='Placemark']/*[local-name()='coordinates']"/>-->
+			<xsl:analyze-string select="*[local-name()='kml']/*[local-name()='Document']/*[local-name()='Placemark']/*[local-name()='coordinates']" regex="[|](.*?)[|]" flags="x">
 				<xsl:matching-substring>
 					<xsl:element name="point">
-						<xsl:attribute name="lon">
+						<xsl:analyze-string select="regex-group(1)" regex="([^,]*?)[,]" flags="x">
+							<xsl:matching-substring>
+								<xsl:attribute name="lon">
+									<xsl:value-of select="regex-group(1)"/>
+								</xsl:attribute>
+							</xsl:matching-substring>
+						</xsl:analyze-string>
+						<!--<xsl:attribute name="lon">
+							<xsl:value-of select="regex-group(1)"/>
+						</xsl:attribute>-->
+						<xsl:attribute name="lat">
 							<xsl:value-of select="regex-group(1)"/>
 						</xsl:attribute>
-						<xsl:attribute name="lat">
-							<xsl:value-of select="regex-group(2)"/>
-						</xsl:attribute>
 						<xsl:attribute name="ele">
-							<xsl:value-of select="regex-group(3)"/>
+							<xsl:value-of select="regex-group(1)"/>
 						</xsl:attribute>
 					</xsl:element>
 				</xsl:matching-substring>
-			</xsl:analyze-string>-->
+			</xsl:analyze-string>
+			<!-- old regex regex="[|](\d\.\d){1}[,](\d\.\d){1}[,](\d\.\d){1}[|]" -->
 		</points>
 	</track>
 </xsl:template>
