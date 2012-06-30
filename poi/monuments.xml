@@ -1,0 +1,641 @@
+<?xml version="1.0"?>
+<sparql xmlns="http://www.w3.org/2005/sparql-results#">
+  <head>
+    <variable name="bezeichnung"/>
+    <variable name="wikilink"/>
+    <variable name="lat"/>
+    <variable name="long"/>
+  </head>
+  <results>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Niederwalddenkmal</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Niederwalddenkmal</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.9808</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.89972</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Befreiungshalle</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Befreiungshalle</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.9183</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.8606</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Mahnmal fÃ¼r die schwulen und lesbischen Opfer des Nationalsozialismus in KÃ¶ln</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Memorial_to_gay_and_lesbian_victims_of_National_Socialism</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.9409</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.96262</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Bismarck-Denkmal (Hamburg)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Bismarck_Monument_%28Hamburg%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.5486</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.97194</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">WeiÃe Kreuze</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/White_Crosses</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5196</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.3768</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Braunschweiger LÃ¶we</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Brunswick_Lion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.2647</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.5236</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Wewelsburg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Wewelsburg</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.6064</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.65167</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Denkmal fÃ¼r die ermordeten Juden Europas</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Memorial_to_the_Murdered_Jews_of_Europe</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5139</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.3783</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Berliner SiegessÃ¤ule</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Berlin_Victory_Column</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5144</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.35</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Ostlandkreuz</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Ostlandkreuz</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.6158</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.83083</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Rudelsburg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Rudelsburg</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.1092</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.7069</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Siegesallee</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Siegesallee</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5142</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.3708</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">KZ FlossenbÃ¼rg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Flossenb%C3%BCrg_concentration_camp</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.7356</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.3558</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Walhalla</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Walhalla_temple</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.0315</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.2241</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Bavaria</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Bavaria_statue</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.1306</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.5458</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Hermannsdenkmal</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Hermannsdenkmal</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.9117</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.83944</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">VÃ¶lkerschlachtdenkmal</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Monument_to_the_Battle_of_the_Nations</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.3122</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.4131</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">SiegessÃ¤ule Hakenberg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Hakenberg_Victory_Column</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.7711</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.8289</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">StraÃe der Menschenrechte</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Way_of_Human_Rights</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.4481</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.075</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Freiheitsmahnmal</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Freedom_Memorial</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5078</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.3906</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Frankfurter Engel</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Frankfurter_Engel</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.1168</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.68525</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Denkmal fÃ¼r die im Nationalsozialismus verfolgten Homosexuellen</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Memorial_to_Homosexuals_persecuted_under_Nazism</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5133</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.3763</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">KZ Buchenwald</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Buchenwald_concentration_camp</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.0222</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.2481</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">KZ Bergen-Belsen</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Bergen-Belsen_concentration_camp</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.7578</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.90778</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">KZ RavensbrÃ¼ck</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Ravensbr%C3%BCck_concentration_camp</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.189</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.17</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">KZ Sachsenhausen</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Sachsenhausen_concentration_camp</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.7658</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.2642</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sowjetisches Ehrenmal (Tiergarten)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Soviet_War_Memorial_%28Tiergarten%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5167</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.3722</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sowjetisches Ehrenmal (SchÃ¶nholzer Heide)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Soviet_War_Memorial_%28Sch%C3%B6nholzer_Heide%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5817</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.3725</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Friedhof Ohlsdorf</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Ohlsdorf_Cemetery</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.6247</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.0617</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Obeliskportal</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Obelisk_%28Sanssouci%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.4025</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.0433</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Bismarckturm (Stettin)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Szczecin_Bismarck_tower</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.4772</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">14.6016</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Bismarck-Nationaldenkmal</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Bismarck_Memorial</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5158</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.3497</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Bismarckturm (Viersen)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Bismarck_Tower_%28Viersen%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.2628</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.36972</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Bismarckturm (Wiesbaden)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Wiesbaden_Bismarck_Tower</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.0808</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.26806</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Bismarckturm (Salzgitter)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Salzgitter_Bismarck_Tower</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.0617</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.3578</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Neue Wache</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Neue_Wache</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5175</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.3956</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Tannenberg-Denkmal</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Tannenberg_Memorial</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.5814</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">20.2608</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Marine-Ehrenmal Laboe</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Laboe_Naval_Memorial</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">54.4122</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.2308</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">TÃ¼rkentor (Helmstedt)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/T%C3%BCrkentor_%28Helmstedt%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.225</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.0153</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Siegestor</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Siegestor</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.1522</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.5819</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Brandenburger Tor</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Brandenburg_Gate</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5163</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.3777</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">PropylÃ¤en (MÃ¼nchen)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Propylaea_%28Munich%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.1461</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.5642</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Grunewaldturm</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Grunewaldturm</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.4783</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.1967</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">KyffhÃ¤userdenkmal</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Kyffh%C3%A4user_Monument</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.4131</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.1097</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Kaiser-Wilhelm-Nationaldenkmal</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/National_Kaiser_Wilhelm_Monument</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5164</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.4</literal>
+      </binding>
+    </result>
+  </results>
+</sparql>

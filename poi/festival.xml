@@ -1,0 +1,305 @@
+<?xml version="1.0"?>
+<sparql xmlns="http://www.w3.org/2005/sparql-results#">
+  <head>
+    <variable name="bezeichnung"/>
+    <variable name="wikilink"/>
+    <variable name="lat"/>
+    <variable name="long"/>
+  </head>
+  <results>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Splash (Festival)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Splash%21_%28festival%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.8369</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.8142</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Southside</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Southside_Festival</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">47.9769</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.90417</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Up From The Ground</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Up_from_the_Ground</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.0575</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.67889</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Wacken Open Air</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Wacken_Open_Air</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">54.0283</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.35611</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Hurricane Festival</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Hurricane_Festival</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.1594</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.5225</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Mâera Luna Festival</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/M%27era_Luna_Festival</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.1797</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.94889</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Magic Circle Festival</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Magic_Circle_Festival</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.3566</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.00603</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Nature One</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Nature_One</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.0433</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.4225</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Rock am Ring</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Rock_am_Ring_and_Rock_im_Park</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.3361</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.94667</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Bang Your Head</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Bang_Your_Head%21%21%21</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.2547</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.845</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Summerjam</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Summerjam</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.0228</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.92694</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Zappanale</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Zappanale</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">54.1228</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.8678</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Party.San</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Party.San_Open_Air</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.2672</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.6353</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Force Attack</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Force_Attack</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">54.18</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.2975</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Haldern Pop</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Haldern_Pop</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.7772</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.48056</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Immergut Festival</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Immergut_Festival</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.3358</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.0472</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Mannheimer Maimarkt</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Maimarkt-Gel%C3%A4nde</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.4693</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.52292</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Cranger Kirmes</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Cranger_Kirmes</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.5444</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.16333</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Curling-Europameisterschaft 2005</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/2005_European_Curling_Championships</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">47.5</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.0833</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Richard-Wagner-Festspielhaus</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Bayreuth_Festspielhaus</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.9597</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.5797</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Bayreuther Festspiele</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Bayreuth_Festival</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.9597</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.5797</literal>
+      </binding>
+    </result>
+  </results>
+</sparql>
