@@ -79,7 +79,7 @@
     </result>
     <result>
       <binding name="bezeichnung">
-        <literal xml:lang="de">Ruine ReuÃenstein</literal>
+        <literal xml:lang="de">Ruine Reußenstein</literal>
       </binding>
       <binding name="wikilink">
         <uri>http://en.wikipedia.org/wiki/Reussenstein_Castle</uri>
@@ -149,7 +149,7 @@
     </result>
     <result>
       <binding name="bezeichnung">
-        <literal xml:lang="de">Kaiser-Wilhelm-GedÃ¤chtniskirche</literal>
+        <literal xml:lang="de">Kaiser-Wilhelm-Gedächtniskirche</literal>
       </binding>
       <binding name="wikilink">
         <uri>http://en.wikipedia.org/wiki/Kaiser_Wilhelm_Memorial_Church</uri>
@@ -233,7 +233,7 @@
     </result>
     <result>
       <binding name="bezeichnung">
-        <literal xml:lang="de">Burg MÃ¼nzenberg</literal>
+        <literal xml:lang="de">Burg Münzenberg</literal>
       </binding>
       <binding name="wikilink">
         <uri>http://en.wikipedia.org/wiki/M%C3%BCnzenberg_Castle</uri>
@@ -247,7 +247,7 @@
     </result>
     <result>
       <binding name="bezeichnung">
-        <literal xml:lang="de">Ruine KÃ¶nigsburg</literal>
+        <literal xml:lang="de">Ruine Königsburg</literal>
       </binding>
       <binding name="wikilink">
         <uri>http://en.wikipedia.org/wiki/K%C3%B6nigsburg</uri>
@@ -261,7 +261,7 @@
     </result>
     <result>
       <binding name="bezeichnung">
-        <literal xml:lang="de">Burg Waldeck (HunsrÃ¼ck)</literal>
+        <literal xml:lang="de">Burg Waldeck (Hunsrück)</literal>
       </binding>
       <binding name="wikilink">
         <uri>http://en.wikipedia.org/wiki/Waldeck_Castle</uri>
@@ -289,7 +289,7 @@
     </result>
     <result>
       <binding name="bezeichnung">
-        <literal xml:lang="de">PrÃ¼fstand VII</literal>
+        <literal xml:lang="de">Prüfstand VII</literal>
       </binding>
       <binding name="wikilink">
         <uri>http://en.wikipedia.org/wiki/Test_Stand_VII</uri>
@@ -303,7 +303,7 @@
     </result>
     <result>
       <binding name="bezeichnung">
-        <literal xml:lang="de">Burg Frankenstein (BergstraÃe)</literal>
+        <literal xml:lang="de">Burg Frankenstein (Bergstraße)</literal>
       </binding>
       <binding name="wikilink">
         <uri>http://en.wikipedia.org/wiki/Castle_Frankenstein</uri>
@@ -415,7 +415,7 @@
     </result>
     <result>
       <binding name="bezeichnung">
-        <literal xml:lang="de">Burg HÃ¶hingen</literal>
+        <literal xml:lang="de">Burg Höhingen</literal>
       </binding>
       <binding name="wikilink">
         <uri>http://en.wikipedia.org/wiki/Burg_Hoehingen</uri>
@@ -513,7 +513,7 @@
     </result>
     <result>
       <binding name="bezeichnung">
-        <literal xml:lang="de">Burg GÃ¼ssenburg</literal>
+        <literal xml:lang="de">Burg Güssenburg</literal>
       </binding>
       <binding name="wikilink">
         <uri>http://en.wikipedia.org/wiki/G%C3%BCssenburg_Castle</uri>
@@ -541,7 +541,7 @@
     </result>
     <result>
       <binding name="bezeichnung">
-        <literal xml:lang="de">Burg RÃ¶tteln</literal>
+        <literal xml:lang="de">Burg Rötteln</literal>
       </binding>
       <binding name="wikilink">
         <uri>http://en.wikipedia.org/wiki/R%C3%B6tteln_Castle</uri>

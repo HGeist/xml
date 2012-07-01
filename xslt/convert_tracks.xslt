@@ -18,11 +18,11 @@
 				<xsl:value-of select="title/."/>
 			</xsl:attribute>
 		</xsl:if>
-		<xsl:if test="username">
+		<!--<xsl:if test="username">
 			<xsl:attribute name="author">
 				<xsl:value-of select="username/."/>
 			</xsl:attribute>
-		</xsl:if>
+		</xsl:if>-->
 		<xsl:attribute name="createTimestamp">
 			<xsl:value-of select="createdDate/."/>
 		</xsl:attribute>
@@ -46,7 +46,7 @@
 				<xsl:value-of select="altitudeMaxHeightM/."/>
 			</xsl:attribute>
 		</xsl:if>
-		<xsl:if test="altitudeMaxHeightM">
+		<xsl:if test="altitudeMinHeightM">
 			<xsl:attribute name="altitudeMin">
 				<xsl:value-of select="altitudeMinHeightM/."/>
 			</xsl:attribute>
@@ -63,23 +63,27 @@
 		</xsl:if>
 		
 		<!--elements-->
+		<xsl:if test="fileId">
+			<fileId>
+				<xsl:value-of select="fileId/."/>
+			</fileId>
+		</xsl:if>
+		<xsl:if test="downloadLink">
+			<kmlLink>
+				<xsl:value-of select="downloadLink/."/>
+			</kmlLink>
+		</xsl:if>
 		<xsl:if test="trackProperty">
 			<trackProperty>
 				<xsl:value-of select="trackProperty" />
 			</trackProperty>
 		</xsl:if>
-		<!--<xsl:if test="description">-->
+		<xsl:if test="description">
 			<description>
 				<xsl:value-of select="*[local-name()='kml']/*[local-name()='Document']/*[local-name()='Placemark']/*[local-name()='description']" />
 			</description>
-		<!--</xsl:if>-->
-		<trackTypes>
-			<xsl:for-each select="trackTypes/trackType">
-				<trackType>
-					<xsl:value-of select="." />
-				</trackType>
-			</xsl:for-each>
-		</trackTypes>
+		</xsl:if>
+		<xsl:if test="trackAttributes">
 		<trackAttributes>
 			<xsl:for-each select="trackAttributes/trackAttribute">
 				<trackAttribute>
@@ -87,6 +91,8 @@
 				</trackAttribute>
 			</xsl:for-each>
 		</trackAttributes>
+		</xsl:if>
+		<xsl:if test="trackCharacters">
 		<trackCharacters>
 			<xsl:for-each select="trackCharacters/trackCharacter">
 				<trackCharacter>
@@ -94,6 +100,8 @@
 				</trackCharacter>
 			</xsl:for-each>
 		</trackCharacters>
+		</xsl:if>
+		<xsl:if test="trackRoadbeds">
 		<trackRoadbeds>
 			<xsl:for-each select="trackRoadbeds/trackRoadbed">
 				<trackRoadbed>
@@ -101,6 +109,8 @@
 				</trackRoadbed>
 			</xsl:for-each>
 		</trackRoadbeds>
+		</xsl:if>
+		<xsl:if test="trackRoads">
 		<trackRoads>
 			<xsl:for-each select="trackRoads/trackRoad">
 				<trackRoad>
@@ -108,6 +118,8 @@
 				</trackRoad>
 			</xsl:for-each>
 		</trackRoads>
+		</xsl:if>
+		<xsl:if test="trackTypes">
 		<trackTypes>
 			<xsl:for-each select="trackTypes/trackType">
 				<trackType>
@@ -115,8 +127,8 @@
 				</trackType>
 			</xsl:for-each>
 		</trackTypes>
+		</xsl:if>
 		<points>
-			<!--<xsl:value-of select="*[local-name()='kml']/*[local-name()='Document']/*[local-name()='Placemark']/*[local-name()='coordinates']"/>-->
 			<xsl:for-each select="tokenize(*[local-name()='kml']/*[local-name()='Document']/*[local-name()='Placemark']/*[local-name()='coordinates'],
 			'\|')">
 				<xsl:variable name="selectThis" select="." />
@@ -141,29 +153,6 @@
 					</xsl:for-each>
 				</point>
 			</xsl:for-each>
-			<!--<xsl:analyze-string select="*[local-name()='kml']/*[local-name()='Document']/*[local-name()='Placemark']/*[local-name()='coordinates']" regex="\|?([0-9]+\.[0-9]+,?){3}\|?" flags="x">
-				<xsl:matching-substring>
-					<xsl:element name="point">-->
-						<!--<xsl:analyze-string select="regex-group(1)" regex=",?(.+?),?" flags="x">
-							<xsl:matching-substring>
-								<xsl:attribute name="lon">
-									<xsl:value-of select="regex-group(1)"/>
-								</xsl:attribute>
-								<xsl:attribute name="lat">
-									<xsl:value-of select="regex-group(2)"/>
-								</xsl:attribute>
-								<xsl:attribute name="ele">
-									<xsl:value-of select="regex-group(3)"/>
-								</xsl:attribute>
-							</xsl:matching-substring>
-						</xsl:analyze-string>-->
-						
-							<!--<xsl:value-of select="regex-group(1)" />
-						
-					</xsl:element>
-				</xsl:matching-substring>
-			</xsl:analyze-string>-->
-			<!-- old regex regex="[|](\d\.\d){1}[,](\d\.\d){1}[,](\d\.\d){1}[|]" -->
 		</points>
 	</track>
 </xsl:template>

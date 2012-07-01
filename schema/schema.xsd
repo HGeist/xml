@@ -5,7 +5,7 @@
 	<xsd:complexType name="point">
                 <xsd:attribute name="lon" type="xsd:decimal" use="required"/>
                 <xsd:attribute name="lat" type="xsd:decimal" use="required"/>
-                <xsd:attribute name="ele" type="xsd:decimal"/>
+                <!--<xsd:attribute name="ele" type="xsd:decimal"/>-->
 	</xsd:complexType>
 
 	<!-- Eine Adresse. Optional: alles -->
@@ -37,7 +37,9 @@
 	<xsd:element name="track">
 		<xsd:complexType>
                 	<xsd:sequence>
-                                <xsd:element name="trackProperty" type="xsd:string"/>
+						<xsd:element name="fileId" type="xsd:string" use="required"/>
+						<xsd:element name="kmlLink" type="xsd:string" use="required"/>
+                        <xsd:element name="trackProperty" type="xsd:string"/>
                 		<xsd:element name="description" type="xsd:string" minOccurs="0"/>
                 		<xsd:element name="trackTypes" minOccurs="0">
                 			<xsd:complexType>

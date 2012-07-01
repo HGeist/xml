@@ -1,0 +1,3679 @@
+<?xml version="1.0"?>
+<sparql xmlns="http://www.w3.org/2005/sparql-results#">
+  <head>
+    <variable name="bezeichnung"/>
+    <variable name="wikilink"/>
+    <variable name="lat"/>
+    <variable name="long"/>
+  </head>
+  <results>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Bobbahn Altenberg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Altenberg_bobsleigh,_luge,_and_skeleton_track</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.7854</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.7259</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Rennrodelbahn Oberhof</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Oberhof_bobsleigh,_luge,_and_skeleton_track</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.713</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.709</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Augsburger Eiskanal</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Eiskanal</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.3485</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.9367</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sporthalle Augsburg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Sporthalle_Augsburg</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.3564</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.88</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Warsteiner HockeyPark</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Warsteiner_HockeyPark</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.1778</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.39</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Knick-Ei von Halstenbek</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Knick-Ei</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.6325</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.84139</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Kombinierte Kunsteisbahn am KÃ¶nigssee</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/K%C3%B6nigssee_bobsleigh,_luge,_and_skeleton_track</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">47.5887</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.9812</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Bobbahn Winterberg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Winterberg_bobsleigh,_luge,_and_skeleton_track</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.1842</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.5066</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Galopprennbahn Hamburg-Horn</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Horner_Rennbahn</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.5583</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.085</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Hauptstadion Aachen</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Hauptstadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.7933</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.09722</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">O2 World</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/O2_World_%28Berlin%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5056</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.4433</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Olympiahalle MÃ¼nchen</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Olympiahalle</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.175</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.55</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Donau-Arena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Donau_Arena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.0253</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.1328</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">StÃ¤dtisches Kathrein-Stadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Kathrein-Stadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">47.8504</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.1321</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Eisstadion am Pulverturm</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Eisstadion_am_Pulverturm</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.8828</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.5617</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">KÃ¶nig-Pilsener-Arena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/K%C3%B6nig_Pilsener_Arena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.49</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.87194</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Arena Leipzig</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Arena_Leipzig</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.3428</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.3553</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Eisstadion an der BrehmstraÃe</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Brehmstra%C3%9Fe</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.2417</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.80278</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">StÃ¤dtische Eissporthalle Landshut</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Eisstadion_am_Gutenbergweg</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.5297</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.1386</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Eisstadion am Friedrichspark</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Eisstadion_am_Friedrichspark</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.4856</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.45806</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Wellblechpalast</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Wellblechpalast</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5408</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.4803</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">SAP-Arena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/SAP_Arena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.4636</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.5175</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Scania-Arena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Scania_Arena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.4067</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.77972</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Eisstadion Heilbronn</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Knorr_Arena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.1461</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.21528</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">TUI Arena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/TUI_Arena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.3225</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.81667</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Olympia-Eissport-Zentrum</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Garmisch_Olympia_Stadium</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">47.4889</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.0956</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Curt-Frenzel-Stadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Curt_Frenzel_Stadium</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.3739</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.8864</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Arena NÃ¼rnberger Versicherung</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Nuremberg_Arena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.4275</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.1231</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Eissporthalle Frankfurt</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Eissporthalle_Frankfurt</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.1253</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.72139</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Eissporthalle Kassel</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Eissporthalle_Kassel</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.2978</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.4825</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">O2 World Hamburg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/O2_World_%28Hamburg%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.5892</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.89917</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">KÃ¶nigpalast</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/K%C3%B6nig_Palast</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.3408</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.54056</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Lanxess Arena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Lanxess_Arena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.9389</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.98142</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Westfalenhallen</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Westfalenhallen</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.4964</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.45583</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Deutschlandhalle</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Deutschlandhalle</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5003</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.2697</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Saturn-Arena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Saturn_Arena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.7592</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.4389</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Eissporthalle Iserlohn</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Eissporthalle_Iserlohn</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.3847</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.71389</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Werner-Seelenbinder-Halle</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Werner-Seelenbinder-Halle</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5311</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.4494</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">ISS Dome</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/ISS_Dome</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.2719</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.81139</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">EisArena Wolfsburg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Eisarena_Wolfsburg</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.4372</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.8142</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Olympia-Eissportzentrum</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Olympia_Eishalle</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.175</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.5572</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">EnergieVerbund Arena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/EnergieVerbund_Arena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.0625</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.7222</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Falkenstein (ThÃ¼ringen)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Falkenstein_%28Thuringia%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.7461</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.6431</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Treppenstein</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Treppenstein</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.8722</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.4806</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Klettergebiet SÃ¤chsische Schweiz</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Saxon_Switzerland_climbing_region</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.916</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">14.1538</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">SÃ¤chsische Schweiz</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Saxon_Switzerland</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.9333</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">14.2</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Teufelsturm (SÃ¤chsische Schweiz)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Teufelsturm_%28Saxon_Switzerland%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.9054</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">14.2187</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Steinwald</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Steinwald</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.91</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.053</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">MÃ¶nch (Fels)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/M%C3%B6nch_%28rock%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.9613</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">14.0761</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Ith</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Ith</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.05</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.56667</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Schwedenturm (Fels)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Schwedenturm_%28rock%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.9698</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">14.0748</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Nonne (Fels)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Nonne</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.951</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">14.0678</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Wartturm (Fels)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Wartturm_%28crag%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.961</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">14.067</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Lokomotive (Fels)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Lokomotive</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.966</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">14.0845</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Wildparkstadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Wildparkstadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.02</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.41306</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Rosenaustadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Rosenaustadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.3553</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.8761</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Eintracht-Stadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Eintracht-Stadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.29</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.5217</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Ernst-Abbe-Sportfeld</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Ernst-Abbe-Sportfeld</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.9161</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.5831</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Stadion Nattenberg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Nattenberg-Stadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.2078</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.61917</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Donaustadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Donaustadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.4044</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.0097</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sportpark Oberwerth</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Stadion_Oberwerth</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.3306</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.58667</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Stadion Rote Erde</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Stadion_Rote_Erde</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.4925</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.45444</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Olympiastadion Berlin</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Olympic_Stadium_%28Berlin%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5147</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.2394</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Olympiastadion MÃ¼nchen</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Olympic_Stadium_%28Munich%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.1731</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.5467</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Deutsches Stadion (NÃ¼rnberg)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Deutsches_Stadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.5675</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.5742</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Easycredit-Stadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Frankenstadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.4261</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.1258</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sparkassen-Erzgebirgsstadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Erzgebirgsstadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.5978</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.7111</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Stadion der Freundschaft (Frankfurt (Oder))</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Stadion_der_Freundschaft_%28Frankfurt_%28Oder%29%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.3325</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">14.5561</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Stadion der Freundschaft (Gera)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Stadion_der_Freundschaft_%28Gera%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.8797</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.0672</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">SÃ¼dweststadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/S%C3%BCdweststadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.4683</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.44139</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Heinz-Steyer-Stadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Heinz-Steyer-Stadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.0411</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.7483</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Georg-GaÃmann-Stadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Georg-Ga%C3%9Fmann-Stadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.7978</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.7546</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Ischelandstadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Ischelandstadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.3722</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.47807</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Steigerwaldstadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Steigerwaldstadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.9603</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.0372</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Frankfurter Volksbank Stadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Frankfurter_Volksbank_Stadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.1281</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.72333</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Auestadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Auestadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.2986</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.48417</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Friedrich-Ludwig-Jahn-Sportpark</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Friedrich-Ludwig-Jahn-Sportpark</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5431</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.4053</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Lohrheidestadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Lohrheidestadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.4858</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.11861</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Stadion Niederrhein</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Niederrheinstadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.4936</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.85444</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sporthalle Hamburg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Alsterdorfer_Sporthalle</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.6028</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.0019</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">GETEC Arena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/B%C3%B6rdelandhalle</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.1283</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.6664</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">F.a.n. frankenstolz arena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/F.a.n._Frankenstolz_Arena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.975</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.12667</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Rittal Arena Wetzlar</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Rittal_Arena_Wetzlar</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.565</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.50833</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sportpark Am Hallo</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Sportpark_am_Hallo</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.4753</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.04722</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Gerry-Weber-Stadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Gerry_Weber_Stadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.0631</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.34889</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Lipperlandhalle</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Lipperlandhalle</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.0169</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.90806</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">EWS-Arena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/EWS-Arena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.7108</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.64806</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Max-Schmeling-Halle</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Max-Schmeling-Halle</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5447</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.4042</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Grugahalle</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Grugahalle</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.4311</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.99778</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Campushalle</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Campushalle</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">54.7733</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.45283</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sport- und Kongresshalle (Schwerin)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Sport-_und_Kongresshalle</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.6274</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.3928</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sparkassen-Arena (Kiel)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Sparkassen-Arena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">54.3206</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.1306</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Porsche-Arena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Porsche_Arena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.7931</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.22833</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Bremen Arena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Bremen-Arena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.0875</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.81528</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Hanns-Martin-Schleyer-Halle</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Hanns-Martin-Schleyer-Halle</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.7939</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.22694</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Rudolf-Kalweit-Stadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Rudolf-Kalweit-Stadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.3622</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.78056</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">AWD-Arena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/AWD-Arena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.3601</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.7312</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sportforum HohenschÃ¶nhausen</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Sportforum_Hohensch%C3%B6nhausen</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5406</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.4828</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Eisstadion Inzell</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Eisstadion_Inzell</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">47.7524</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.7524</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">RieÃersee</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Riessersee</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">47.4775</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.08</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">AVUS</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/AVUS</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.4806</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.2514</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Hockenheimring Baden-WÃ¼rttemberg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Hockenheimring</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.3278</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.56583</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Grenzlandring</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Grenzlandring</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.1407</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.28792</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Solitude-Rennstrecke</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Solituderennen</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.768</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.06835</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Motorsport Arena Oschersleben</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Motorsport_Arena_Oschersleben</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.0272</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.2786</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sachsenring</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Sachsenring</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.7917</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.6889</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Norisring</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Norisring</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.4314</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.125</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Schottenring</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Schottenring</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.4975</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.11833</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">NÃ¼rburgring</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/N%C3%BCrburgring</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.3356</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.9475</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">SÃ¼dschleife</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/S%C3%BCdschleife</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.3206</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.92033</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Alemannenring</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Alemannenring</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">47.7556</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.87361</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Imtech Arena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Volksparkstadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.5872</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.89862</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Helmut-SchÃ¶n-Sportpark</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Helmut-Sch%C3%B6n-Sportpark</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.0697</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.25722</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sportplatz Memellandallee</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/EVendi_Arena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.5675</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.94111</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Herbert-DrÃ¶se-Stadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Herbert_Dr%C3%B6se_Stadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.1428</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.88306</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Veltins-Arena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Veltins-Arena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.5545</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.06759</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">ESPRIT arena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Esprit_Arena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.2617</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.73306</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">RheinEnergieStadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/RheinEnergieStadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.9335</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.875</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Karl-Liebknecht-Stadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Karl-Liebknecht-Stadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.3991</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.0948</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Jahnstadion (Regensburg)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Jahnstadion_%28Regensburg%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.0156</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.0739</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Jahnstadion (MÃ¶nchengladbach)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Jahnstadion_%28M%C3%B6nchengladbach%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.1747</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.45128</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Stadion am Halberg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Stadion_am_Halberg</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.16</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.18389</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Parkstadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Parkstadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.5592</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.06667</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sportforum Chemnitz</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Sportforum_Chemnitz</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.8058</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.9347</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Carl-Benz-Stadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Carl-Benz-Stadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.4794</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.5025</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Riederwaldstadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Riederwaldstadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.1331</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.73028</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Georg-Melches-Stadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Georg-Melches-Stadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.4858</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.97778</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Uhlenkrugstadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Uhlenkrugstadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.4267</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.01833</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">StÃ¤dtisches Stadion an der GrÃ¼nwalder StraÃe</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Gr%C3%BCnwalder_Stadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.1108</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.5744</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Bruno-Plache-Stadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Bruno-Plache-Stadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.3028</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.4192</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Stadion am Schloss StrÃ¼nkede</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Stadion_am_Schloss_Str%C3%BCnkede</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.5519</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.20861</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Millerntor-Stadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Millerntor-Stadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.5544</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.96778</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Osnatel-Arena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Osnatel-Arena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.2808</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.07111</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Red Bull Arena (Leipzig)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Red_Bull_Arena_%28Leipzig%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.3458</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.3482</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">GlÃ¼ckauf-Kampfbahn</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Gl%C3%BCckauf-Kampfbahn</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.53</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.07944</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">BÃ¶kelbergstadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/B%C3%B6kelbergstadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.2089</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.43956</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sportpark Aschheim</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Sportpark_Aschheim</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.1619</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.7236</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Ludwigsparkstadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Ludwigsparkstadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.2475</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.98417</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Rewirpowerstadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Ruhrstadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.4899</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.23654</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Stadion am Bruchweg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Stadion_am_Bruchweg</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.0008</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.24556</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Hermann-LÃ¶ns-Stadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Hermann_L%C3%B6ns_Stadium</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.7567</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.70056</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Generali Sportpark</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Generali_Sportpark</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.0736</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.6156</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">DreiflÃ¼ssestadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Drei_Fl%C3%BCsse_Stadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.5644</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.4228</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Stadion der Weltjugend</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Stadion_der_Weltjugend</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5339</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.3767</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Voith-Arena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Voith-Arena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.6685</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.1393</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Stadion am Alsenweg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Stadion_am_Alsenweg</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.5331</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.48528</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Hans-Walter-Wild-Stadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Hans-Walter_Wild_Stadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.9453</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.5869</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Tuja-Stadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Tuja-Stadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.7444</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.4431</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Eilenriedestadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Eilenriedestadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.3766</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.7729</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Allianz Arena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Allianz_Arena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.2188</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.6248</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Commerzbank-Arena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Commerzbank-Arena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.0686</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.64546</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Volkswagen Arena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Volkswagen_Arena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.4319</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.8039</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Tivoli (Aachen)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/New_Tivoli</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.7933</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.09722</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">GlÃ¼cksgas-Stadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Gl%C3%BCcksgas_Stadium</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.0403</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.7478</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Alter Tivoli</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Old_Tivoli</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.7897</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.09389</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">DKB-Arena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/DKB-Arena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">54.0849</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.0952</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Schauinsland-Reisen-Arena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Schauinsland-Reisen-Arena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.409</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.77866</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Waldstadion Kaiserlinde</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Waldstadion_an_der_Kaiserlinde</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.3186</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.12167</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Paul-Janes-Stadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Paul-Janes-Stadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.225</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.82722</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Jahnstadion (WiedenbrÃ¼ck)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Jahnstadion,_Rheda-Wiedenbr%C3%BCck</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.8336</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.32194</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Signal Iduna Park</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Signal_Iduna_Park</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.4926</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.45184</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Rheinstadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Rheinstadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.2603</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.73417</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Stadion am Bieberer Berg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Stadion_am_Bieberer_Berg</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.0944</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.79861</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Badenova-Stadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Dreisamstadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">47.9889</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.89306</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Trolli Arena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Trolli_Arena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.4869</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.9992</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Kurt-Wabbel-Stadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Kurt-Wabbel-Stadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.4653</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.9619</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Geberit-Arena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/ALNO-Arena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">47.9184</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.26195</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Marschweg-Stadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Marschweg-Stadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.1292</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.20639</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Stadion an der Kreuzeiche</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Stadion_an_der_Kreuzeiche</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.4786</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.19</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Coface Arena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Coface_Arena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.9842</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.22417</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Rothenbaum-Stadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Sportplatz_at_Rothenbaum</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.5718</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.99054</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Ostragehege</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Ostragehege</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.0689</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.7131</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Stadion am Zoo</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Stadion_am_Zoo</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.2391</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.10508</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Ludwig-Jahn-Stadion (Herford)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Friedrich-Ludwig-Jahn-Stadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.1053</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.68806</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">MDCC-Arena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/MDCC-Arena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.1256</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.6708</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Dietmar-Hopp-Stadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Dietmar-Hopp-Stadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.2783</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.84211</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Mercedes-Benz Arena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Mercedes-Benz_Arena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.7923</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.23203</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Weserstadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Weserstadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.0664</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.83763</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Stadion im Borussia-Park</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Borussia-Park</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.1746</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.38546</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">SchÃ¼coArena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Bielefelder_Alm</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.0314</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.51694</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Wacker-Arena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Wacker_Arena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.1789</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.8364</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">BayArena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/BayArena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.0383</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.00221</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Waldstadion Homburg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Waldstadion_Homburg</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.3161</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.355</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Fritz-Walter-Stadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Fritz-Walter-Stadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.4347</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.77646</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Jahnstadion (GÃ¶ttingen)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Jahnstadion_%28G%C3%B6ttingen%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.5192</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.92639</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Jahnstadion (Marl)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Jahnstadion_%28Marl%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.6609</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.13629</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Stadion der Freundschaft (Cottbus)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Stadion_der_Freundschaft_%28Cottbus%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.7514</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">14.3456</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Ernst-Grube-Stadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Ernst_Grube_Stadium</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.1267</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.6714</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Grotenburg-Stadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Grotenburg-Stadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.3389</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.60361</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Stadion An der Alten FÃ¶rsterei</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Stadion_An_der_Alten_F%C3%B6rsterei</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.4572</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.5681</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Westsachsenstadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Westsachsenstadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.6972</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.4856</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Ostfriesland-Stadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Embdena-Stadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.3792</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.20333</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Wersestadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Wersestadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.7533</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.905</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Leimbachstadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Leimbachstadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.8522</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.02611</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Wedaustadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Wedaustadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.409</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.77866</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Stadion Hoheluft</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Stadion_Hoheluft</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.5872</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.96972</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Energieteam Arena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Energieteam_Arena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.7314</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.71083</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Wirsol Rhein-Neckar-Arena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Rhein-Neckar-Arena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.239</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.88828</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Stadion Gladbeck</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Stadion_Gladbeck</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.5617</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.98722</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Mommsenstadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Mommsenstadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5008</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.2642</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">VfL-Stadion am Elsterweg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/VfL-Stadium</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.4253</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.7994</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Jadestadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Jadestadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.5347</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.09806</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Grugastadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Grugastadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.424</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.994</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Stadion am Gesundbrunnen</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Stadion_am_Gesundbrunnen</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.55</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.3933</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Audi-Sportpark</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Audi_Sportpark</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.7503</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.4823</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Deutsches Stadion (Berlin)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Deutsches_Stadion_%28Berlin%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5147</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.2392</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Brita-Arena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/BRITA-Arena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.0711</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.25669</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Stadion an der LohmÃ¼hle</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Lohm%C3%BChle_Stadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.8811</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.6689</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Scholz Arena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Scholz-Arena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.8406</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.0722</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Stadion am BÃ¶llenfalltor</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/B%C3%B6llenfalltor_Stadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.8578</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.67222</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Stadion am Brentanobad</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Stadion_am_Brentanobad</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.125</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.621</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Alfred-Kunze-Sportpark</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Alfred-Kunze-Sportpark</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.3581</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.3078</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">SGL arena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Impuls_Arena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.3225</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.8822</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Wormatia-Stadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Wormatia-Stadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.6314</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.3358</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Ellenfeldstadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Ellenfeldstadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.3367</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.17972</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">SolarTechnics-Arena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/PGW_Arena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.2764</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.91667</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Hardtwaldstadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Hardtwaldstadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.3321</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.64767</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sportpark HusterhÃ¶he</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Sportpark_Husterh%C3%B6he</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.2177</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.59636</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Gazi-Stadion auf der Waldau</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Gazi-Stadion_auf_der_Waldau</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.7539</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.18842</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Stadion Mathias Stinnes</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Mathias-Stinnes-Stadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.5236</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.00889</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">PCC-Stadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/PCC-Stadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.462</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.701</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Poststadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Poststadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.53</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.3594</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">PreuÃenstadion</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Preu%C3%9Fenstadion</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.9297</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.62458</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Stadion an der GellertstraÃe</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Stadion_an_der_Gellertstra%C3%9Fe</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.8422</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.9457</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Ballsporthalle Frankfurt am Main</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Ballsporthalle</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.1011</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.52722</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">SKV Rutesheim</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Ballsporthalle</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.1011</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.52722</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">EWE-Arena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/EWE_Arena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.1469</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.22667</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Stechert-Arena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Jako_Arena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.8792</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.9206</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Mitsubishi Electric Halle</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Mitsubishi_Electric_Halle</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.2064</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.80861</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Europahalle Karlsruhe</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Europahalle</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.9969</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.37667</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sporthalle GieÃen-Ost</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Sporthalle_Gie%C3%9Fen-Ost</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.5775</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.69139</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Paul Horn-Arena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/T%C3%BCArena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.5103</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.04194</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Weser-Ems-Halle</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Weser-Ems_Halle</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.1475</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.22778</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Telekom Dome</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Telekom_Dome</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.706</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.05981</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Audi Dome</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Rudi-Sedlmayer-Halle</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.1261</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.5256</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">LTTC Rot-WeiÃ Berlin</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Rot-Weiss_Tennis_Club</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.485</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.259</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Heini-Klopfer-Skiflugschanze</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Heini_Klopfer_Ski_Jump</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">47.3753</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.2692</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">GroÃe Olympiaschanze</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Gro%C3%9Fe_Olympiaschanze</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">47.4814</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.1178</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Schattenbergschanze</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Schattenberg_Ski_Jump</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">47.4056</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.293</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Hochfirstschanze</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Hochfirstschanze</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">47.9042</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.21917</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Vogtland Arena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Vogtlandarena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.3839</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.4489</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Skisprungschanzen am Wurmberg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Wurmberg_Ski_Jumps</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.7562</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.6194</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">MÃ¼hlenkopfschanze</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/M%C3%BChlenkopfschanze</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.275</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.61528</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Velodrom (Berlin)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Velodrom</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5308</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.4508</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Berliner Sportpalast</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Berlin_Sportpalast</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.4947</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.3592</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Arena Ludwigsburg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Arena_Ludwigsburg</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.8911</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.18252</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Arena Trier</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Trier_Arena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.7717</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.66389</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Anhalt-Arena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Anhalt_Arena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.83</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.2181</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sportzentrum Maspernplatz</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Sportzentrum_Maspernplatz</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.7246</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.75294</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sporthalle BÃ¶blingen</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Sporthalle_%28B%C3%B6blingen%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.6781</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.01736</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Glaspalast Sindelfingen</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Glaspalast_Sindelfingen</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.716</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.98366</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Volkswagen Halle Braunschweig</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Volkswagen_Halle</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.2575</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.5192</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Uni-Halle</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Uni-Halle</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.2411</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.14778</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">AWD Hall</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/AWD_Hall</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.3569</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.72997</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Rundsporthalle Ludwigsburg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Rundsporthalle_Ludwigsburg</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.9</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.178</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Artland-Arena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Artland_Arena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.6775</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.965</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Hardtberghalle</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Hardtberghalle</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.7028</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.0525</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Smidt-Arena</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Wilhelm_Dopatka_Halle</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.0394</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.00361</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Messe Erfurt</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Messehalle</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.9597</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.9903</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Festhalle</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Festhalle_Frankfurt</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.1117</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.65083</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Messe Karlsruhe</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Dm-Arena</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.9793</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.32716</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sporthalle (KÃ¶ln)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Sporthalle_%28Cologne%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.9459</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.97956</literal>
+      </binding>
+    </result>
+  </results>
+</sparql>
