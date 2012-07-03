@@ -9,99 +9,42 @@
 */
 include("BaseXClient.php");
 
-$searchIn =  $_POST["searchInput"];
-$trackId = $_GET["trackId"];
+if (isset($_POST["searchInput"])) $searchIn =  $_POST["searchInput"];
+if (isset($_GET["trackId"])) $trackId = $_GET["trackId"];
 //$trackType =  $_POST["check"];
 
-if ($searchIn != '') doSearch($searchIn);
-else if ($trackId != '') getTrackInfo($trackId);
+error_reporting(0);
 
-function getTrackInfo($trackId) {
-	echo $trackId;
-	
-	try {
-		$session = new Session("localhost", 1984, "admin", "admin");
-		
-		$session->execute("OPEN db-crawl");
-		
-		$query = $session->query('
-			let $my-doc := doc("db-crawl.xml")
-			return
-			'
-		);
-		print $query->execute()."<br/>";
-		$query->close();
-		
-	} catch (Exception $e) {
-	  // print exception
-	  print $e->getMessage();
-	}
-}
+if ($searchIn != '') doSearch($searchIn);
+else if ($trackId != '') showTrack($trackId);
 
 function doSearch($searchIn) {
+
 	try {
-	  // initialize timer
-	  $start = microtime(true);
+		// initialize timer
+		$start = microtime(true);
 
-	  // var from HTML
-	  
-	  
-	  // create session
-	  $session = new Session("localhost", 1984, "admin", "admin");
+		// var from HTML
+
+
+		// create session
+		$session = new Session("localhost", 1984, "admin", "admin");
+
+		// open test.xml
+		// $session->execute("DROP DB db-crawl");
+		// $session->execute("CREATE DB db-crawl gpsies_piece.xml");
+		$session->execute("OPEN db-crawl");
 		
-	  // dom document
-	  //$dom = new DOMDocument();
-
-
-	  // open test.xml
-	  //$session->execute("CREATE DB db-crawl db-crawl.xml");
-	  $session->execute("OPEN db-crawl");
-	  // query
-		$input = 'declare variable $search external;
-		let $my-doc := doc("db-crawl.xml")
-		return
-		<html>
-			<head>
-				<title>Tracks</title>
-				<!--<script src="test.js" type="text/javascript" />-->
-			</head>
-			<body>
-			<table border="1">
-			<thead>
-			  <tr>
-				  <th>Track Title</th> 
-				  <th>CreateDate</th>
-				  <th>TrackType</th>
-			  </tr>
-			</thead>
-			<tbody>{
-				
-			   for $term at $count in 
-				 for $item in $my-doc//tracks/track
-					 let $track-name := $item/title/text()'.
-					 //let $track-type := $item/trackTypes/trackType/*
-					 'where contains(upper-case($track-name), upper-case($search))'. //and contains($track-type, "biking")
-					 
-					'order by upper-case($track-name)
-				 return $item
-			   return
-				 <tr> {if ($count mod 2) then (attribute bgcolor {"Lightblue"}) else ()}
-				   <td><a href="search.php?trackId={$term/fileId/text()}" title="{$term/title/text()}">{$term/title/text()}</a></td>
-				   <td>{$term/createdDate/text()}</td>
-				   <td>{$term/trackTypes/node()}</td>
-				 </tr>
-				 
-			   }		   
-			   </tbody>
-			 </table>
-		   </body>
-		</html>';
-	  $query = $session->query($input);
-	  $query->bind("search",$searchIn);
-	  print $query->execute()."<br/>";
-	  $query->close();
-	  
-	  //$session->execute("DROP DB db-crawl");
+		$doc = new DOMDocument();
+		$doc->loadXML("<root/>");
+		$f = $doc->createDocumentFragment();
+		
+		$f->appendXML($session->execute("xquery //track[@trackName[contains(lower-case(.), lower-case('".$searchIn."'))]]"));
+		$doc->documentElement->appendChild($f);
+		
+		$xpath = new DOMXpath($doc);
+		
+		showResults($xpath->query("//track"));
 	  
 	  // close session
 	  $session->close();
@@ -112,9 +55,133 @@ function doSearch($searchIn) {
 
 
 	} catch (Exception $e) {
-	  // print exception
-	  print $e->getMessage();
+		// print exception
+		print $e->getMessage();
 	}
+}
+
+function showResults(DOMNodeList $tracks) {
+
+	//print out the html document
+	print('<!DOCTYPE html>
+	<html>
+		<head>
+		<title>Tracks</title>			
+		</head>
+		<body">
+			<table border="1">
+				<thead>
+					<tr>
+						<th>Track Title</th> 
+						<th>CreateDate</th>	
+					</tr>
+				</thead>
+				<tbody>');
+				
+	// die("tracklaenge: ".$tracks->length);
+
+	//loop through tracks and put them out row per row
+	foreach($tracks as $track) {
+		//save relevant child node infos
+		foreach($track->childNodes as $node) {
+			switch($node->nodeName) {
+				case "fileId":
+					$fileId = $node->nodeValue;
+					// print("id: ".$fileId."<br>");
+					break;
+				case "kmlLink":
+					$link = $node->nodeValue;
+					// print("link: ".$link."<br>");
+					break;
+			}
+		}
+		
+		//save relevant attribute node infos
+		foreach($track->attributes as $attrName => $attrNode) {
+			switch($attrName) {
+				case "trackName":
+					$title = $attrNode->nodeValue;
+					// print("title: ".$title."<br>");
+					break;
+				case "createTimestamp":
+					$created = $attrNode->nodeValue;
+					// print("created: ".$created."<br>");
+					break;
+			}
+		}
+		
+		//print a table row
+		print ('<tr>
+			<td><a href="search.php?trackId='.$fileId.'" title="'.$title.'">'.$title.'</a></td>');
+		print ('<td>'.$created.'</td></tr>');
+
+	}
+	
+	print ('				</tbody>
+			</table>
+		</body>
+	</html>');
+}
+
+function showTrack($trackId) {
+
+	// create session
+	$session = new Session("localhost", 1984, "admin", "admin");
+
+	$session->execute("OPEN db-crawl");
+
+	$doc = new DOMDocument();
+	$doc->loadXML("<root/>");
+	$f = $doc->createDocumentFragment();
+
+	$f->appendXML($session->execute("xquery //track[fileId[text() = '".$trackId."']]"));
+	$doc->documentElement->appendChild($f);
+	
+	$xpath = new DOMXpath($doc);
+
+	$track = $xpath->query("//track");
+	
+	// close session
+	$session->close();
+	
+	foreach($track->item(0)->childNodes as $node) {
+		switch($node->nodeName) {
+			case "kmlLink":
+				$link = $node->nodeValue;
+				break;
+		}
+	}
+	
+	//print out the html document
+	print('<!DOCTYPE html><html>
+		<head>
+			<title>Track</title>
+			<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+			<style type="text/css">
+				html { height: 100% }
+				body { height: 100%; margin: 0px; padding: 0px }
+				#map_canvas { height: 100% }
+			</style>
+			<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script>
+			<script type="text/javascript">
+			function initialize() {
+				var latlng = new google.maps.LatLng(49.97823380, 11.69609640);
+				var myOptions = {
+					zoom: 8,
+					center: latlng,
+					mapTypeId: google.maps.MapTypeId.ROADMAP
+				};
+				var map = new google.maps.Map(document.getElementById("map_canvas"),
+				myOptions);
+				
+				var track = new google.maps.KmlLayer("'.htmlspecialchars($link).'");
+				track.setMap(map);
+			}
+			</script>			
+		</head>
+		<body onload="initialize()">
+			<div id="map_canvas" style="width:100%; height:100%"></div>
+		</body></html>');
 }
 
 
