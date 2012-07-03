@@ -26,7 +26,6 @@ function doSearch($searchIn) {
 
 		// var from HTML
 
-
 		// create session
 		$session = new Session("localhost", 1984, "admin", "admin");
 
@@ -37,9 +36,10 @@ function doSearch($searchIn) {
 		
 		$doc = new DOMDocument();
 		$doc->loadXML("<root/>");
+
 		$f = $doc->createDocumentFragment();
-		
 		$f->appendXML($session->execute("xquery //track[@trackName[contains(lower-case(.), lower-case('".$searchIn."'))]]"));
+
 		$doc->documentElement->appendChild($f);
 		
 		$xpath = new DOMXpath($doc);
@@ -63,20 +63,21 @@ function doSearch($searchIn) {
 function showResults(DOMNodeList $tracks) {
 
 	//print out the html document
-	print('<!DOCTYPE html>
+	print('
+	<!doctype html>
 	<html>
 		<head>
-		<title>Tracks</title>			
-		</head>
-		<body">
-			<table border="1">
-				<thead>
-					<tr>
-						<th>Track Title</th> 
-						<th>CreateDate</th>	
-					</tr>
-				</thead>
-				<tbody>');
+			<title>Tracks</title>			
+			</head>
+			<body>
+				<table border="1">
+					<thead>
+						<tr>
+							<th>Track Title</th> 
+							<th>CreateDate</th>	
+						</tr>
+					</thead>
+					<tbody>');
 				
 	// die("tracklaenge: ".$tracks->length);
 
@@ -84,40 +85,35 @@ function showResults(DOMNodeList $tracks) {
 	foreach($tracks as $track) {
 		//save relevant child node infos
 		foreach($track->childNodes as $node) {
-			switch($node->nodeName) {
-				case "fileId":
-					$fileId = $node->nodeValue;
-					// print("id: ".$fileId."<br>");
-					break;
-				case "kmlLink":
-					$link = $node->nodeValue;
-					// print("link: ".$link."<br>");
-					break;
+			if($node->nodeName == "fileId") {
+				$fileId = $node->nodeValue;
+			} else if ($node->nodeName == "kmlLink") {
+				$link = $node->nodeValue;
 			}
 		}
 		
 		//save relevant attribute node infos
 		foreach($track->attributes as $attrName => $attrNode) {
-			switch($attrName) {
-				case "trackName":
-					$title = $attrNode->nodeValue;
-					// print("title: ".$title."<br>");
-					break;
-				case "createTimestamp":
-					$created = $attrNode->nodeValue;
-					// print("created: ".$created."<br>");
-					break;
+			if($attrName == "trackName") {
+				$title = $attrNode->nodeValue;
+			} else if($attrName == "createTimestamp") {
+				$created = $attrNode->nodeValue;
 			}
 		}
 		
 		//print a table row
-		print ('<tr>
-			<td><a href="search.php?trackId='.$fileId.'" title="'.$title.'">'.$title.'</a></td>');
-		print ('<td>'.$created.'</td></tr>');
+		print ('
+			<tr>
+				<td>
+					<a href="search.php?trackId='.$fileId.'" title="'.$title.'">'.$title.'</a>
+				</td>
+				<td>'.$created.'</td>
+			</tr>');
 
 	}
 	
-	print ('				</tbody>
+	print ('
+				</tbody>
 			</table>
 		</body>
 	</html>');
@@ -145,25 +141,25 @@ function showTrack($trackId) {
 	$session->close();
 	
 	foreach($track->item(0)->childNodes as $node) {
-		switch($node->nodeName) {
-			case "kmlLink":
-				$link = $node->nodeValue;
-				break;
+		if($node->nodeName == "kmlLink") {
+			$link = $node->nodeValue;
 		}
 	}
 	
 	//print out the html document
-	print('<!DOCTYPE html><html>
+	print('
+	<!doctype html>
+	<html>
 		<head>
 			<title>Track</title>
 			<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
 			<style type="text/css">
 				html { height: 100% }
 				body { height: 100%; margin: 0px; padding: 0px }
-				#map_canvas { height: 100% }
+				#map_canvas { width: 100%; height: 100% }
 			</style>
-			<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script>
-			<script type="text/javascript">
+			<script src="https://maps.google.com/maps/api/js?sensor=false"></script>
+			<script>
 			function initialize() {
 				var latlng = new google.maps.LatLng(49.97823380, 11.69609640);
 				var myOptions = {
@@ -171,18 +167,19 @@ function showTrack($trackId) {
 					center: latlng,
 					mapTypeId: google.maps.MapTypeId.ROADMAP
 				};
-				var map = new google.maps.Map(document.getElementById("map_canvas"),
-				myOptions);
-				
+				var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
 				var track = new google.maps.KmlLayer("'.htmlspecialchars($link).'");
 				track.setMap(map);
 			}
-			</script>			
+			</script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+			<script src="js/jquery.twitter.search.js"></script>
 		</head>
 		<body onload="initialize()">
-			<div id="map_canvas" style="width:100%; height:100%"></div>
-		</body></html>');
+			<div id="map_canvas"></div>
+			<div id="poitable"></div>
+		</body>
+	</html>');
 }
-
 
 ?>
