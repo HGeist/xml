@@ -5,16 +5,15 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
 <html>
 	<head>
-		<title>
-			POInter
-		</title>
-		<link rel="stylesheet" type="text/css" href="styles.css">
+		<title>POInter</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
 	</head>
 	<body id="index">
 		<div id="wrapper">
 			<header id="header">
 				<div class="inside">
-					<h1>POInter</h1><h3>Tracks and Landmarks..</h3>
+					<h1>POInter</h1>
+					<h3>Tracks and Landmarks..</h3>
 				</div>
 			</header>
 			<div id="container">
