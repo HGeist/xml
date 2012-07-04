@@ -9,8 +9,29 @@
 */
 include("BaseXClient.php");
 
-if (isset($_POST["searchInput"])) $searchIn =  $_POST["searchInput"];
+session_start();
+
+// if (isset($_POST["searchInput"])) $searchIn =  $_POST["searchInput"];
 if (isset($_GET["trackId"])) $trackId = $_GET["trackId"];
+
+foreach($_POST as $name => $val) {
+	// print_r("post: " . $name . ", " . $val);
+	if ($name === "searchInput") {
+		$searchIn = $val;
+	}
+	else {
+		$_SESSION["OPTS"][$name] = $val;
+	}
+}
+
+
+// if(isset($trackId)) {
+	// print("<pre>");
+// print_r($_SESSION);
+// print("</pre>");
+// die("session");
+// }
+
 //$trackType =  $_POST["check"];
 
 error_reporting(0);
@@ -31,8 +52,8 @@ function doSearch($searchIn) {
 		$session = new Session("localhost", 1984, "admin", "admin");
 
 		// open test.xml
-		// $session->execute("DROP DB db-crawl");
-		// $session->execute("CREATE DB db-crawl gpsies_piece.xml");
+		$session->execute("DROP DB db-crawl");
+		$session->execute("CREATE DB db-crawl gpsies_pois_part.xml");
 		$session->execute("OPEN db-crawl");
 		
 		$doc = new DOMDocument();
@@ -144,11 +165,24 @@ function showTrack($trackId) {
 	// close session
 	$session->close();
 	
+	$pois = array();
+	
 	foreach($track->item(0)->childNodes as $node) {
 		switch($node->nodeName) {
 			case "kmlLink":
 				$link = $node->nodeValue;
 				break;
+			case "points":
+				foreach($node->childNodes as $cnode) {
+					switch($cnode->nodeName) {
+						case "poi":
+							
+							if (array_key_exists($cnode->getAttribute("category"), $_SESSION["OPTS"])) {
+								
+								$pois[] = $cnode;
+							}
+					}
+				}
 		}
 	}
 	
@@ -164,6 +198,9 @@ function showTrack($trackId) {
 			</style>
 			<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script>
 			<script type="text/javascript">
+			var markers = new Array();
+			var map;
+			
 			function initialize() {
 				var latlng = new google.maps.LatLng(49.97823380, 11.69609640);
 				var myOptions = {
@@ -171,11 +208,29 @@ function showTrack($trackId) {
 					center: latlng,
 					mapTypeId: google.maps.MapTypeId.ROADMAP
 				};
-				var map = new google.maps.Map(document.getElementById("map_canvas"),
+				map = new google.maps.Map(document.getElementById("map_canvas"),
 				myOptions);
 				
 				var track = new google.maps.KmlLayer("'.htmlspecialchars($link).'");
 				track.setMap(map);
+				
+				poiLocs = [
+				');
+				
+	foreach($pois as $poi) {
+		echo "new google.maps.LatLng(".$poi->getAttribute("lat").",".$poi->getAttribute("lon")."),\n";
+	}
+	
+	echo "];\n";
+	
+	$i = 0;
+	
+	foreach($pois as $poi) {
+		echo "markers[".$i."] = new google.maps.Marker({position: poiLocs[".$i."], map: map, title: \"".$poi->getAttribute("title")."\"});\n";
+		$i++;
+	}
+				
+	print ('
 			}
 			</script>			
 		</head>

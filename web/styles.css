@@ -272,3 +272,33 @@ a {
     float: left;
     width: 100px;
 }
+
+#index .search, #index .submit {
+	float: left;
+}
+
+#index .search input {
+	border-radius:3px;
+	font-size:20px;
+	height:30px;
+	padding: 0 3px;
+	margin-top:6px;
+	border:1px solid #FAFAD2;
+	background:#fcfcfc;
+}
+
+#index .submit {
+	margin-top: 42px;
+	margin-left: 12px;
+	background:#f0f0e0;
+	font-size:20px;
+	border-radius:3px;
+	padding:3px;
+	clear:right;
+	border:1px solid #FAFAD2;
+	cursor:pointer;
+}
+
+#index .options, #index .optInf  {
+	clear: left;
+}

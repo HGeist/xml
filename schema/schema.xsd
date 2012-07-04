@@ -80,6 +80,7 @@
                 			<xsd:complexType>
                 				<xsd:sequence>
                 					<xsd:element name="point" type="point" maxOccurs="unbounded"/>
+									<xsd:element name="poi" type="poi" minOccurs="0" maxOccurs="unbounded"/>
                 				</xsd:sequence>
                 			</xsd:complexType>
                 		</xsd:element>
@@ -98,15 +99,15 @@
 	</xsd:element>
 
 	<!-- Ein POI. Optional: beginTimestamp, endTimestamp (falls es ein zeitbegrenztes Event ist) -->
-	<xsd:element name="pointOfInterest">
+	<xsd:element name="poi">
 		<xsd:complexType>
-			<xsd:sequence>
-                                <xsd:element name="location" type="point"/>
-                        </xsd:sequence>
-                        <xsd:attribute name="name" type="xsd:string"/>
-                        <xsd:attribute name="type" type="xsd:string" use="required"/>
-                        <xsd:attribute name="beginTimestamp" type="xsd:dateTime"/>
-                        <xsd:attribute name="endTimestamp" type="xsd:dateTime"/>
+				<xsd:attribute name="lon" type="xsd:decimal" use="required"/>
+                <xsd:attribute name="lat" type="xsd:decimal" use="required"/>
+                <xsd:attribute name="title" type="xsd:string" use="required"/>
+				<xsd:attribute name="category" type="xsd:string" use="required"/>
+                <xsd:attribute name="wikiLink" type="xsd:string"/>
+                <xsd:attribute name="beginTimestamp" type="xsd:dateTime"/>
+                <xsd:attribute name="endTimestamp" type="xsd:dateTime"/>
 		</xsd:complexType>
 	</xsd:element>
 
