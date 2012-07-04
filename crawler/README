@@ -1,3 +1,0 @@
-ausführen:
-java -jar crawler-0.0.1-SNAPSHOT.jar "key" "/path/to/output/file"
-braucht ungefähr 6 Minuten
