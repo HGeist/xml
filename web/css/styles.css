@@ -16,6 +16,35 @@ body {
     text-align: left;
 }
 
+table, td {
+    border-color: #600;
+    border-style: solid;
+}
+
+table {
+    border-width: 0 0 1px 1px;
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    font-size:1.2em;
+    padding: 5px;
+    text-align:center;    
+}
+
+td {
+    margin: 0;
+    padding: 4px;
+    border-width: 1px 1px 0 0;
+}
+
+tr:hover {
+    background-color: #FFC;
+}
+
+
 header {
 	background: #55AA55;
 }
@@ -77,6 +106,9 @@ img {
 .inside {
     position: relative;
     text-align: left;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
 }
 .block {
     overflow-x: hidden;

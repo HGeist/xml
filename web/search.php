@@ -68,16 +68,27 @@ function showResults(DOMNodeList $tracks) {
 	<html>
 		<head>
 			<title>Tracks</title>			
-			</head>
-			<body>
-				<table border="1">
-					<thead>
-						<tr>
-							<th>Track Title</th> 
-							<th>CreateDate</th>	
-						</tr>
-					</thead>
-					<tbody>');
+			<link rel="stylesheet" type="text/css" href="css/styles.css">
+		</head>
+		<body>
+			<div id="wrapper">
+				<header id="header">
+					<div class="inside">
+						<h1>POInter</h1>
+						<h3>Search results</h3>
+					</div>
+				</header>
+				<div id="container">
+					<section id="main">
+						<div class="inside">
+							<table border="1">
+								<thead>
+									<tr>
+										<th>Track Title</th> 
+										<th>CreateDate</th>	
+									</tr>
+								</thead>
+								<tbody>');
 				
 	// die("tracklaenge: ".$tracks->length);
 
@@ -113,8 +124,10 @@ function showResults(DOMNodeList $tracks) {
 	}
 	
 	print ('
-				</tbody>
-			</table>
+						</tbody>
+					</table>
+				</div>
+			</div>
 		</body>
 	</html>');
 }
