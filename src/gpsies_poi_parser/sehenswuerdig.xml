@@ -1,0 +1,1661 @@
+<?xml version="1.0"?>
+<sparql xmlns="http://www.w3.org/2005/sparql-results#">
+  <head>
+    <variable name="bezeichnung"/>
+    <variable name="wikilinks"/>
+    <variable name="lat"/>
+    <variable name="long"/>
+  </head>
+  <results>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Zoo Hannover</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.3805</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.77106</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Opernhaus Hannover</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.3733</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.74083</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Knochenhaueramtshaus</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.1528</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.95139</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Serengeti-Park</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.7456</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.61667</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Otter-Zentrum</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.7314</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.62</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Wildpark Löneburger Heide</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.2367</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.0443</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Rattenfängerhaus</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.1042</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.3607</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Heide-Park</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.0281</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.86917</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Weltvogelpark Walsrode</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.8809</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.60291</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Staatstheater Braunschweig</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.2658</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.5317</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Messegelände Hannover</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.3239</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.80278</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Gänseliesel</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.5328</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.935</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Umgestölpter Zuckerhut</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.1522</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.95</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Einhornhühle (Harz)</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.635</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.404</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Bismarckturm (Salzgitter)</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.0617</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.3578</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Innenhafen Duisburg</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.4408</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.76611</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">NS-Ordensburg Vogelsang</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.5844</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.44806</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Dortmunder U</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.515</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.45362</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Alte Synagoge (Essen)</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.4564</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.01667</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Zoo Duisburg</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.4353</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.80528</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Centro</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.4917</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.87667</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Schloss Beck</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.6133</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.97806</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Balver Hühle</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.339</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.872</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Phantasialand</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.8</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.87944</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Movie Park Germany</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.62</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.9725</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Bismarckturm (Viersen)</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.2628</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.36972</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Stadion im Borussia-Park</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.1746</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.38546</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Hermannsdenkmal</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.9117</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.83944</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Westfalenhallen</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.4964</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.45583</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Zoo Wuppertal</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.2397</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.11222</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Dölkener Schüppenmarkt</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.2517</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.335</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Skulpturensammlung Viersen</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.2581</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.39167</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Zeche Carl</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.4953</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.01194</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Halle Mönsterland</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.9481</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.63778</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Atta-Hühle</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.125</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.91556</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Schauspielhaus Bochum</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.4725</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.21667</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Haldern Pop</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.7772</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.48056</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Dechenhühle</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.3656</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.64472</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Zeche Zollverein</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.4864</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.04389</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Burg Dagstuhl</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.5311</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.8965</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Ringwall von Otzenhausen</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.6231</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.00222</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Berliner Philharmonie</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.51</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.37</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Pfaueninsel</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.4333</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.1333</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Botanischer Garten und Botanisches Museum Berlin-Dahlem</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.455</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.3036</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Strandbad Wannsee</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.4388</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.1772</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Potsdamer Platz</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5094</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.3765</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Berliner Fernsehturm</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5208</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.4094</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Erholungspark Marzahn</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5394</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.5767</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Reichstagsgebäude</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5186</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.376</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Berliner Siegessäule</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5144</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.35</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Zoologischer Garten Berlin</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5083</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.3375</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Neue Wache</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5175</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.3956</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Brandenburger Tor</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5163</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.3777</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">AquaDom</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5197</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.4028</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Möggelturm</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.4172</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.625</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Grunewald (Forst)</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.4667</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.25</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Europa-Center</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5044</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.3389</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Siedlungen der Berliner Moderne</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.4483</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.45</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Platz der Luftbröcke</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.4842</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.3875</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Kulturforum Berlin</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.507</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.371</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Carillon (Berlin)</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5178</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.3672</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Großer Tiergarten</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5167</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.3667</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Tierpark Berlin</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5003</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.5325</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Festung Künigstein</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.9189</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">14.0567</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Schloss Dahlen</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.3675</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.9958</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Schloss Colditz</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.1308</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.8075</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Volkssternwarte Drebach</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.6739</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.0128</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Leipziger Baumwollspinnerei</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.3278</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.3197</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Richard-Wagner-Festspielhaus</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.9597</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.5797</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Befreiungshalle</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.9183</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.8606</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Bayreuther Festspiele</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.9597</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.5797</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Gäubodenvolksfest</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.8839</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.5642</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">KZ Dachau</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.2703</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.4681</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Bergkirchweih</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.6075</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.005</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Chiemsee</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">47.89</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.47</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Vogelpark Olching</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.2086</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.3219</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Markgräfliches Opernhaus (Bayreuth)</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.944</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.578</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Teufelshühle bei Pottenstein</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.7547</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.42</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Osterhühle</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.5192</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.6631</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Niederwalddenkmal</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.9808</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.89972</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Schloss Johannisberg (Rheingau)</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.0</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.98378</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Herkules (Kassel)</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.316</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.393</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Grube Messel</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.9175</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.7567</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Rümisches Forum Lahnau-Waldgirmes</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.5883</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.54111</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Hamburgische Staatsoper</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.5567</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.98889</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Hamburger Dom (Volksfest)</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.5539</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.97083</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Laeiszhalle</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.5558</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.98083</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Bismarck-Denkmal (Hamburg)</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.5486</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.97194</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Lagerhaus G</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.5264</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.0117</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Fabrik (Hamburg)</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.5566</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.92922</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Thalia Theater (Hamburg)</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.5528</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.99694</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Reeperbahn</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.5494</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.96228</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Alter Elbtunnel</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.5457</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.96992</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Deutsches Schauspielhaus</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.5543</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.0089</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Hamburg Dungeon</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.544</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.989</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Tierpark Hagenbeck</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.5964</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.93778</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Kaiserkeller</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.5512</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.95793</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Friedhof Ohlsdorf</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.6247</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.0617</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">St. Pauli-Landungsbröcken</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.5461</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.96667</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Speicherstadt</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.5433</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.99194</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Beatles-Platz</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.5497</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.9575</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Elbphilharmonie</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.5414</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.98421</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Deichstraße</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.5461</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.98722</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Burg Lauenburg</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.7271</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.0811</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Hermannshühle (Harz)</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.7547</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.8472</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Kreisgrabenanlage von Goseck</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.2003</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.8642</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Rudelsburg</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.1092</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.7069</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Baumannshühle</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.755</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.8433</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Heimkehle</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.4972</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.955</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Stecklenburg</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.7308</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.0878</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Richtfunkturm (Bremerhaven)</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.5386</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.58</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Weserstadion</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.0664</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.83763</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Bremer Ratskeller</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.0761</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.80806</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Bremer Roland</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.0759</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.80731</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Schifferhaus</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.0731</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.80861</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Büttcherstraße (Bremen)</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.075</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.80556</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Park Sanssouci</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.402</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.0336</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Krongut Bornstedt</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.4167</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.0333</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Aussichtsturm Blumenthal</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.0914</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.3494</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Nauener Tor</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.403</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.058</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Tropical Islands</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.0375</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.7486</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Neptungrotte</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.4033</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.0422</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Dampflokwerk Meiningen</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.5819</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.4206</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Liste der Kulturdenkmale in Lichte</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.525</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.1933</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Deutsches Nationaltheater und Staatskapelle Weimar</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.9794</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.3247</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Wartburg</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.9662</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.3065</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Feengrotten</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.635</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.3414</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Morassina</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.535</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.2167</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Zoo Karlsruhe</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.9978</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.40167</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Fremersbergturm</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.7528</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.20222</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Kurhaus Baden-Baden</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.7603</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.23639</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Heidelberger Schloss</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.4106</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.71583</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Europa-Park</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.2683</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.72083</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Merkur (Baden-Baden)</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.7617</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.28056</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Hohler Fels</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.3792</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.75556</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Badisches Staatstheater Karlsruhe</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.004</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.40609</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Wildpark Bad Mergentheim</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.4683</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.79694</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Erlebnispark Tripsdrill</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.0353</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.0525</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Festung Ehrenbreitstein</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.365</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.61528</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Holiday Park</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.3197</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.29472</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Welterbe Kulturlandschaft Oberes Mittelrheintal</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.1736</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.69417</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Zitadelle Mainz</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.9931</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.27417</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Golm (Usedom)</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.8833</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">14.2</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Burg Landskron (Ostvorpommern)</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.7658</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.3793</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Ozeaneum Stralsund</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">54.3156</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.0969</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Mecklenburgisches Staatstheater Schwerin</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.6269</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.4172</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Wattenmeerhaus Langeneß</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">54.6406</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.63333</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Hansa-Park</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">54.0769</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.78</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Wildpark Eekholt</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.6131</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.0288</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Burgtor (Löbeck)</literal>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.8738</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.6912</literal>
+      </binding>
+    </result>
+  </results>
+</sparql>

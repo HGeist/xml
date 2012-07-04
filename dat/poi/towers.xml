@@ -1,0 +1,1817 @@
+<?xml version="1.0"?>
+<sparql xmlns="http://www.w3.org/2005/sparql-results#">
+  <head>
+    <variable name="bezeichnung"/>
+    <variable name="wikilink"/>
+    <variable name="lat"/>
+    <variable name="long"/>
+  </head>
+  <results>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Berliner Funkturm</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Funkturm_Berlin</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5051</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.2782</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Fernsehturm Dresden</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Dresden_TV_tower</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.04</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.8389</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Grunewaldturm</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Grunewaldturm</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.4783</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.1967</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Großer Waldstein</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Gro%C3%9Fer_Waldstein</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.1267</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.845</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sendeanlage Burg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Burg_AM_transmitter</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.2692</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.9233</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Fernmeldeturm Mannheim</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Fernmeldeturm_Mannheim</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.4869</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.49222</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Perlachturm</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Perlachturm</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.369</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.898</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Deutschlandsender III</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Deutschlandsender_Herzberg/Elster</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.7167</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.2642</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Richtfunkturm (Bremerhaven)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Bremerhaven_Radar_Tower</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.5386</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.58</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">LORAN-C-Sender Rantum</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/LORAN-C_transmitter_Rantum</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">54.8083</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.29361</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sender Flensburg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Flensburg-Engelsby_transmitter</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">54.8022</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.45361</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Teltschikturm</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Teltschik_Tower</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.4656</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.75472</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Eugen-Keidel-Turm</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Eugen-Keidel_Tower</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">47.9119</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.89861</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sender Koblenz</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Koblenz_radio_transmitter</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.3767</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.585</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Kraftwerk Jänschwalde</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/J%C3%A4nschwalde_Power_Station</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.8347</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">14.4603</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Potzbergturm</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Potzbergturm</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.5206</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.48028</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Humbergturm</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Humberg_Tower</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.415</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.78</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">DECCA-Sender Zeven</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Zeven_DECCA-transmitter</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.2844</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.2625</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Fernmeldeturm Reisenbach</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Reisenbach_Telecommunication_Tower</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.5067</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.115</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Böchenbronner Aussichtsturm</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/B%C3%BCchenbronn_Observation_Tower</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.8433</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.64139</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Windkraftanlage Laasow</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Fuhrl%C3%A4nder_Wind_Turbine_Laasow</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.7206</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">14.1067</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Berliner Fernsehturm</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Fernsehturm_Berlin</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5208</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.4094</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Aussichtsturm Blumenthal</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Blumenthal_Observation_Tower</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.0914</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.3494</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sender Möhlacker</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/M%C3%BChlacker_radio_transmitter</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.9419</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.85389</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sendeanlage Ismaning</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Ismaning_radio_transmitter</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.2508</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.7528</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sendeanlage Wachenbrunn</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Wachenbrunn_transmitter</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.4928</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.5664</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sender Eifel</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Eifel_Transmitter</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.2187</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.75063</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Rundfunksendestelle Cremlingen-Abbenrode</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Cremlingen_transmitter</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.2939</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.7267</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Florianturm</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Florianturm</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.4964</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.47639</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sender Inselsberg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Sender_Inselsberg</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.8514</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.4654</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sender Behren-Bokel</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Behren-Bokel_Transmitter</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.7939</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.5325</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Fernmeldeturm Mönster</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Fernmeldeturm_M%C3%BCnster</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.95</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.66639</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Vodafone-Funkturm Stuttgart-Vaihingen</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Vodafone-Funkturm_Stuttgart-Vaihingen</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.7281</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.07944</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Josephskreuz</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Joseph%27s_Cross</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.5806</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.0056</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Wasserturm Belvedere</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Belvedere_water_tower</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.7867</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.08056</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Mannesmannturm (Hannover)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Mannesmann_Tower_%28Hannover%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.3281</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.80389</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Tagblatt-Turm</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Tagblatt-Turm</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.7728</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.17611</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Großfunkstelle Nauen</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Nauen_Transmitter_Station</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.647</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.9085</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sender Ochsenkopf</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Ochsenkopf_Transmitter</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.0306</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.8081</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Fernmeldeturm Heidelberg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Telecom_Telecommunication_Tower_Heidelberg</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.4028</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.73083</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Funkturm Rottenbuch</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Rottenbuch_Radio_Tower</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">47.7569</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.9319</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Fremersbergturm</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Fremersberg_Tower</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.7528</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.20222</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Rundfunksender Wiederau</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Wiederau_transmitter</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.1856</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.2806</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Highlight Towers</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Highlight_Towers</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.1767</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.5922</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Kraftwerk Scholven</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Scholven_Power_Station</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.6028</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.00944</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Europaturm</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Europaturm</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.1353</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.65472</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Stuttgarter Funkturm</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Funkturm_Stuttgart</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.7742</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.22306</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Fallturm Bremen</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Fallturm_Bremen</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.1103</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.8579</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Elbekreuzung 1</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Elbe_Crossing_1</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.6094</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.58444</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Elbekreuzung 2</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Elbe_Crossing_2</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.6025</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.60389</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Fernmeldeturm Nörnberg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Fernmeldeturm_N%C3%BCrnberg</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.4261</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.0389</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Olympiaturm</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Olympiaturm</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.1744</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.5536</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Heinrich-Hertz-Turm</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Heinrich-Hertz-Turm</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.5631</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.97583</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Schweriner Fernsehturm</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Schwerin_TV_tower</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.5925</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.4575</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Goldbergturm (Sindelfingen)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Goldbergturm</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.7017</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.0175</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Funkturm Aufhausen</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Aufi_Tower</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.5881</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.7475</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sender Felsberg-Berus</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Longwave_transmitter_Europe_1</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.2803</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.67806</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Funkturm Wilsdruff</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Wilsdruff_transmitter</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.0583</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.5081</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Längstwellensender DHO38</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/VLF_transmitter_DHO38</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.0819</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.61639</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sendeanlagen in Mainflingen</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Mainflingen_transmitter</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.0156</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.01194</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Rheinturm</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Rheinturm</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.2178</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.76167</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sendeanlagen auf dem Brocken</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Brocken_Transmitter</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.8005</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.6141</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Bierpinsel</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Bierpinsel</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.4614</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.3244</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Heizkraftwerk Chemnitz-Nord</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/HKW_Chemnitz-Nord</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.8578</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.9239</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Glockenturm Berlin</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Bell_Tower_of_Berlin_Olympic_Stadium</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5139</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.2317</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Schapfenmöhle</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Schapfen_Mill_Tower</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.4325</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.98278</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">BMW-Vierzylinder</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/BMW_Headquarters</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.1769</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.56</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Jentower</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Jen-Tower</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.9286</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.5844</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Goetheturm</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Goethe_Tower</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.0889</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.71111</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Aussichtsturm Burgholzhof</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Observation_Tower_Burgholzhof</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.8189</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.19472</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Schlossbergturm (Freiburg im Breisgau)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Aussichtsturm_Schlossberg</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">47.995</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.86194</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sender Aholming</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Aholming_transmitter</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.73</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.9314</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Weser Tower</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Weser_Tower</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.0833</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.78694</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Gaußturm</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Gauss_Tower</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.4739</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.76583</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Krawutschketurm</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Krawutschke_Tower</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.6947</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.44139</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Wartturm (Löbbecke)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Wartturm_%28L%C3%BCbbecke%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.2829</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.61508</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Bismarckturm (Viersen)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Bismarck_Tower_%28Viersen%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.2628</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.36972</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Hypo-Haus</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Hypo-Haus</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.1497</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.6172</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sender Hirschlanden</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Hirschlanden_transmitter</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.8287</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.03639</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Longinusturm</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Longinus_Tower</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.96</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.36556</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Kraftwerk Duisburg-Walsum</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Walsum_power_plant</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.5286</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.71167</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Kraftwerk Herne</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Herne_Power_Plant</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.5514</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.18889</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Stadtwerketurm</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Stadtwerketurm</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.4297</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.75306</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Colonius</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Colonius</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.9472</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.93194</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Stuttgarter Fernsehturm</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Fernsehturm_Stuttgart</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.7567</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.19139</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Telemax</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Telemax</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.3931</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.79972</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Möggelturm</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/M%C3%BCggelturm</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.4172</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.625</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Hochhaus Uptown Mönchen</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Hochhaus_Uptown_M%C3%BCnchen</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.1769</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.5317</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Jahrtausendturm</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Jahrtausendturm</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.138</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.667</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Fernsehturm Heidelberg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Fernsehturm_Heidelberg</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.4044</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.72944</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Fernmeldeturm Großer Feldberg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Feldberg/Taunus_transmitter</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.232</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.45727</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Mittelturm (Künigs Wusterhausen)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/K%C3%B6nigs_Wusterhausen_Central_Tower</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.3042</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.6111</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sendeturm Langenbrand</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Nordschwarzwaldturm</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.8086</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.62528</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Fernmeldeturm Kiel</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Kiel_Transmission_Tower</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">54.3006</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.1183</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Wasserturm Möhlacker</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/M%C3%BChlacker_Water_Tower</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.9511</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.85528</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Wasserturm Leverkusen-Börrig</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Leverkusen-B%C3%BCrrig_water_tower</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.0386</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.98306</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Fernmeldeturm der US-Streitkräfte Heidelberg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Telecommunication_Tower_of_US-Forces_Heidelberg</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.4022</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.73306</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Fernmeldeturm Koblenz</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Fernmeldeturm_Koblenz</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.3092</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.56861</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Kraftwerk Lippendorf</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Lippendorf_Power_Station</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.1853</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.3778</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sender Hühbeck</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Gartow-H%C3%B6hbeck_transmitter</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.0678</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.4428</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Bismarckturm (Wiesbaden)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Wiesbaden_Bismarck_Tower</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.0808</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.26806</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Heidelstein</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Heidelstein_transmitter</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.4586</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.0067</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sender Heidelstein</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Heidelstein_transmitter</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.4586</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.0067</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Dillberg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Dillberg_transmitter</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.3244</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.3817</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sender Dillberg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Dillberg_transmitter</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.3244</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.3817</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Fernmeldeturm Heubach</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Heubach_Telecommunication_Tower</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.7858</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.95389</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Fernsehturm Schlemmin</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Schlemmin_TV_Tower</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.8581</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.8375</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Oberpfalzturm</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Upper_Palatinate_Tower</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.91</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.0531</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Künig-Friedrich-August-Turm</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/King-Friedrich-August-Tower</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.0911</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">14.6928</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Friedrich-Clemens-Gerke-Turm</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Friedrich_Clemens_Gerke_Tower</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.8572</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.67778</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sender Peheim</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Peheim_transmitter</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.8881</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.84972</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Aussichtsturm Wanne</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Wanne_Observation_Tower</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.0581</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.47778</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Gützingerhühe</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Observation_Tower_Height_of_Goetzingen</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.0111</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">14.2078</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Turm der Einheit</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Tower_of_Unity</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.1122</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.1989</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">NDR-Mess- und Empfangsstation Wittmoor</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Wittmoor_Measurement_and_Reception_Station</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.6272</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.72389</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Fernmeldeturm Bremen</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Bremen_TV_tower</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.0958</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.79194</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sender Weiskirchen</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Weiskirchen_transmitter</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.0555</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.86247</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Typenturm</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Typenturm</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">54.9111</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.30694</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Hainigturm</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Hainigturm</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.6217</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.41701</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">SV-Hochhaus</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/SV-Hochhaus</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.137</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.6353</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Köstenfunkstelle Sahlenburg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Sahlenburg_Marine_Radio_Station</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.864</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.625</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Fernmeldeturm Hönenburg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/H%C3%BCnenburg_Observation_Tower</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.0147</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.47472</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Hochheideturm</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Hochheideturm</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.2785</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.59977</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Holsteinturm</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Holstein_Tower</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">54.0742</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.7792</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Gänsehals</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Goose_Neck_Tower</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.3972</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.20417</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Bismarckturm (Salzgitter)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Salzgitter_Bismarck_Tower</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.0617</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.3578</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sender Helgoland</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Helgoland_radio_tower</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">54.1804</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.88328</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sender Biedenkopf</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Biedenkopf_transmitter</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.9511</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.53194</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sendeturm Hardberg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Hardberg_transmitter</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.9511</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.53194</literal>
+      </binding>
+    </result>
+  </results>
+</sparql>

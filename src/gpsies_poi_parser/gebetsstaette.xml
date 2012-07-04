@@ -1,0 +1,2181 @@
+<?xml version="1.0"?>
+<sparql xmlns="http://www.w3.org/2005/sparql-results#">
+  <head>
+    <variable name="bezeichnung"/>
+    <variable name="wikilink"/>
+    <variable name="lat"/>
+    <variable name="long"/>
+  </head>
+  <results>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Alte Synagoge (Erfurt)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Erfurt_Synagogue</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.9786</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.0293</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Alte Synagoge (Dresden)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Semper_Synagogue</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.0524</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.7468</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Große Gemeindesynagoge (Leipzig)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Leipzig_synagogue</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.3399</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.3697</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Liberale Synagoge Künigsberg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/K%C3%B6nigsberg_Synagogue</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">54.7057</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">20.5156</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Neue Synagoge (Berlin)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/New_Synagogue_%28Berlin%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5247</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.3944</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Synagoge Rykestraße</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Rykestrasse_Synagogue</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5354</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.4186</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Löbecker Dom</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/L%C3%BCbeck_Cathedral</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.8608</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.6858</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Marienkirche (Löbeck)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/St._Mary%27s_Church,_L%C3%BCbeck</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.8677</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.685</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Katharinenkirche (Löbeck)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/St._Catherine%27s_Church,_L%C3%BCbeck</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.8692</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.6894</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Kloster Cismar</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Cismar_Abbey</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">54.19</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.9858</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Schleswiger Dom</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Schleswig_Cathedral</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">54.5133</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.56917</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Kloster Ahrensbük</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Ahrensb%C3%B6k_Charterhouse</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">54.0122</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.5717</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Kloster Preetz</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Preetz_Priory</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">54.2404</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.2833</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Jesuitenkirche (Mannheim)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Jesuit_Church,_Mannheim</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.486</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.461</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Freiburger Mönster</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Freiburg_Minster</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">47.9956</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.85222</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Heiliggeistkirche (Heidelberg)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Church_of_the_Holy_Spirit,_Heidelberg</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.4122</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.70944</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Kloster St. Blasien (Schwarzwald)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Sankt_Blasien_Abbey_in_the_Black_Forest</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">47.76</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.13</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Konstanzer Mönster</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Konstanz_Cathedral</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">47.6633</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.17639</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Marienkirche (Reutlingen)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/St._Mary%27s_Church,_Reutlingen</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.4911</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.21333</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Ulmer Mönster</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Ulm_Minster</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.3986</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.9925</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Stiftskirche (Töbingen)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/St._George%27s_Collegiate_Church,_T%C3%BCbingen</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.52</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.05611</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Kilianskirche (Heilbronn)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Kilianskirche_%28Heilbronn%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.1417</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.21917</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Konstantinbasilika</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Aula_Palatina</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.7533</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.6433</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Wormser Dom</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Worms_Cathedral</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.6303</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.35972</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Mainzer Dom</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Mainz_Cathedral</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.9989</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.27389</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Trierer Dom</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Cathedral_of_Trier</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.7561</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.64306</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Gedächtniskirche der Protestation (Speyer)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Ged%C3%A4chtniskirche_%28Speyer%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.3147</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.43</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Speyerer Dom</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Speyer_Cathedral</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.3172</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.4424</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">St. Stephan (Mainz)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/St._Stephen%27s_Church,_Mainz</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.9956</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.26861</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Rochuskapelle (Bingen)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Rochuskapelle_%28Bingen%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.9667</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.92606</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Stift St. Alban vor Mainz</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/St._Alban%27s_Abbey,_Mainz</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.99</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.28</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">St. Paulin</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Saint_Paulin_Church</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.7625</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.65219</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Schweriner Dom</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Schwerin_Cathedral</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.6297</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.4147</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">St.-Marien-Kirche (Stralsund)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/St._Mary%27s_Church,_Stralsund</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">54.3102</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.0878</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Schelfkirche</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Schelfkirche</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.6325</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.4178</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Erfurter Dom</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Erfurt_Cathedral</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.9759</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.0233</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Braunschweiger Dom</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Brunswick_Cathedral</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.2642</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.5242</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Stift Gandersheim</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Gandersheim_Abbey</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.8704</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.0261</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Paulinerkirche (Güttingen)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/SS._Peter_and_Paul%27s_Church,_G%C3%B6ttingen</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.5338</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.93202</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">St. Johannis (Löneburg)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/St._John%27s_Church,_L%C3%BCneburg</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.2478</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.4128</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">St. Michael (Hildesheim)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/St._Michael%27s_Church,_Hildesheim</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.1529</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.9435</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Fabian-und-Sebastian-Kirche (Sölze)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Church_of_St._Fabian_and_St._Sebastian,_S%C3%BClze</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.7712</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.0385</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Nikolaikapelle (Hildesheim)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/St._Nicolai%27s_Chapel,_Hildesheim</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.1458</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.94944</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">St. Andreas (Hildesheim)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/St._Andrew%27s_Church,_Hildesheim</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.1517</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.95</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Gustav-Adolf-Stabkirche</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Gustav_Adolf_Stave_Church</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.8569</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.34</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">St.-Lamberti-Kirche (Bergen)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Church_of_St._Lambertus,_Bergen</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.809</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.96242</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Marktkirche (Hannover)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Marktkirche</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.3717</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.735</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Goslarer Dom</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Goslar_Cathedral</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.9033</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.4278</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">St. Ludwig (Celle)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/St_Ludwig%27s_Church,_Celle</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.6203</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.0789</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">St.-Martini-Kirche (Groß Ellershausen)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/St._Martini</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.5206</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.86464</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">St. Cosmae et Damiani (Stade)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Church_of_Saints_Cosmas_and_Damian,_Stade</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.6019</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.47628</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Schiefer Turm von Suurhusen</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Leaning_Tower_of_Suurhusen</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.4135</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.22333</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">St. Bernward (Hildesheim)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/St._Bernward%27s_Church,_Hildesheim</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.1569</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.94917</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Altenberger Dom</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Altenberg_Abbey</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.0547</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.13278</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Abtei Altenberg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Altenberg_Abbey</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.0547</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.13278</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Bonner Mönster</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Bonn_Minster</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.7333</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.09972</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Kloster Knechtsteden</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Knechtsteden_Abbey</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.0772</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.75255</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Külner Dom</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Cologne_Cathedral</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.9413</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.958</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Aachener Dom</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Aachen_Cathedral</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.7747</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.08444</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">St. Reinoldi</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Reinoldikirche</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.5147</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.46722</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Paderborner Dom</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Paderborn_Cathedral</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.7189</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.75528</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Essener Mönster</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Essen_Cathedral</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.4558</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.01361</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Xantener Dom</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Xanten_Cathedral</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.6622</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.4539</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Benediktinerabtei St. Mauritius (Tholey)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Tholey_Abbey</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.4811</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">7.03111</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Ludwigskirche (Saarbröcken)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Ludwigskirche</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.2328</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">6.98639</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Kaiser-Friedrich-Gedächtniskirche</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Kaiser-Friedrich-Ged%C3%A4chtniskirche</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.515</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.3433</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sankt-Hedwigs-Kathedrale</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/St._Hedwig%27s_Cathedral</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5158</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.3947</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Kaiser-Wilhelm-Gedächtniskirche</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Kaiser_Wilhelm_Memorial_Church</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.505</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.335</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Taborkirche (Berlin-Kreuzberg)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Tabor_Church</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.4967</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.4462</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">St. Peter und Paul (Berlin-Wannsee)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Ss._Peter_and_Paul,_Wannsee</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.4244</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.1192</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Kapelle der Versühnung</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Chapel_of_Reconciliation</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5358</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.3919</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">St.-Marien-Kirche (Berlin-Mitte)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/St._Mary%27s_Church,_Berlin</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5206</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.4067</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Franzüsischer Dom</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Franz%C3%B6sischer_Dom</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5143</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.3921</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Berliner Dom</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Berlin_Cathedral</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5192</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.4011</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Kirche am Hohenzollernplatz</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Kirche_am_Hohenzollernplatz</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.4941</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.327</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Jerusalemkirche (Berlin)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Jerusalem%27s_Church</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5038</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.3952</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Kapernaumkirche (Berlin)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Capernaum_Church</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5484</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.3495</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Gemeindezentrum Plützensee</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Protestant_Church_of_Pl%C3%B6tzensee</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5394</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.3</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Gethsemanekirche (Berlin)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Gethsemane_Church</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5475</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.4167</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Mater Dolorosa (Berlin-Lankwitz)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Mater_Dolorosa_%28Berlin-Lankwitz%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.4239</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.3381</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sankt-Michael-Kirche (Berlin)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Saint_Michael%27s_church,_Berlin</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5072</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.4194</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Sophienkirche (Berlin)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Sophienkirche_%28Berlin%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5256</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.4</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">St.-Thomas-Kirche (Berlin)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Saint_Thomas_Church_%28Berlin%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5053</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.4267</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Parochialkirche (Berlin)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Parochialkirche</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5169</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.4131</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Martinskirche (Landshut)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/St._Martin%27s_Church,_Landshut</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.5342</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.1511</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">St. Jakob (Regensburg)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Scots_Monastery,_Regensburg</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.0186</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.0883</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Schottenkloster St. Jakob Regensburg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Scots_Monastery,_Regensburg</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.0186</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.0883</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Dom St. Stephan (Passau)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/St._Stephan%27s_Cathedral,_Passau</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.5742</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.4656</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">St. Lorenz (Nörnberg)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/St._Lorenz,_Nuremberg</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.451</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.0781</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Kloster Sankt Ulrich und Afra Augsburg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/St._Ulrich%27s_and_St._Afra%27s_Abbey_%28Augsburg%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.3614</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.9004</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Kloster Sankt Emmeram</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/St._Emmeram%27s_Abbey</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.0153</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.0928</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Kloster Benediktbeuern</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Benediktbeuern_Abbey</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">47.7075</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.3992</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Bamberger Dom</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Bamberg_Cathedral</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.8908</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.8825</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Wieskirche</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Wies_Church</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">47.6833</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">St. Bartholomä</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/St._Bartholomew%27s_Church,_Berchtesgaden</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">47.5447</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.9725</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Frauenkirche (Nörnberg)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Nuremberg_Frauenkirche</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.454</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.078</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Kloster Andechs</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Andechs_Abbey</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">47.9833</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.1833</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Klosterkirche Andechs</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Andechs_Abbey</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">47.9833</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.1833</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Kloster Ettal</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Ettal_Abbey</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">47.5667</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.1</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Regensburger Dom</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Regensburg_Cathedral</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.0194</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.0981</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">St. Peter (Straubing)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Church_of_St._Peter_%28Straubing%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.8862</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.5883</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">St. Sebald (Nörnberg)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/St._Sebaldus_Church,_Nuremberg</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.4553</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.0758</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Stadtkirche St. Jakob (Rothenburg ob der Tauber)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/St._James%27s_Church,_Rothenburg_ob_der_Tauber</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.3778</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.1775</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Kanonissenstift Lindau</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Lindau_Abbey</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">47.5467</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.6875</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">St. Peter und Paul (Detwang)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/St._Peter_and_St._Paul%27s_Church,_Detwang</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.387</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.1665</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Kloster Michelsberg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Michaelsberg_Abbey,_Bamberg</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.8936</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.8772</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Dom Unserer Lieben Frau (Augsburg)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Augsburg_Cathedral</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.3728</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.8967</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Wörzburger Dom</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/W%C3%BCrzburg_Cathedral</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">49.7934</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.9324</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Allerheiligen-Hofkirche</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Allerheiligen-Hofkirche</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.1406</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.5797</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">St.-Anna-Kirche (Augsburg)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/St._Anne%27s_Church,_Augsburg</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.3678</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.8953</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Stift Quedlinburg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Quedlinburg_Abbey</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.7859</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.1368</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Naumburger Dom</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Naumburg_Cathedral</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.1547</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.8039</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Merseburger Dom</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Merseburg_Cathedral</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.359</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.001</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Magdeburger Dom</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Cathedral_of_Magdeburg</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.1247</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.6344</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Kloster Nienburg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Nienburg_Abbey</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.8365</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.7718</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Kloster Dröbeck</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Dr%C3%BCbeck_Abbey</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.8558</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.7147</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Kloster Wechselburg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Wechselburg_Priory</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.005</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.7711</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">St.-Annen-Kirche (Annaberg-Buchholz)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/St._Anne%27s_Church,_Annaberg-Buchholz</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.5786</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.0053</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Rundkirche Zum Friedeförsten (Klingenthal)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Zum_Friedef%C3%BCrsten_church</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.3578</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.4672</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Freiberger Dom</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Freiberg_Cathedral</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.9203</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.3433</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Stadtkirche Limbach</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Limbach_Municipal_Church</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.8581</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.7669</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Nikolaikirche (Aue)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/St._Nicholas%27_Church,_Aue</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.5853</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.7052</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Klüsterlein Zelle</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Zelle_Abbey</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.5981</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">12.6931</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Mariendom (Hamburg)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/St._Mary%27s_Cathedral_%28Hamburg%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.5493</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.99771</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">St. Marien (Hamburg-Fuhlsböttel)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/St._Mary%27s_Church,_Fuhlsb%C3%BCttel,_Hamburg</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.6222</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.0269</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Neuer Mariendom (Hamburg)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Domkirche_St._Marien</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.5575</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.0136</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Hauptkirche Sankt Katharinen (Hamburg)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/St._Catherine%27s_Church,_Hamburg</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.5458</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.99417</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Matthäuskirche (Hamburg)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/St._Matthew%27s_Church,_Hamburg</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.5889</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.0106</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Ehemalige Hauptkirche St. Nikolai (Hamburg)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/St._Nikolai,_Hamburg</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.5475</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.99056</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Hauptkirche Sankt Jacobi (Hamburg)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/St._Jacobi,_Hamburg</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.5503</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.0006</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Hauptkirche Sankt Petri (Hamburg)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/St._Peter%27s_Church,_Hamburg</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.5503</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.99639</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Hauptkirche Sankt Michaelis (Hamburg)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/St._Michaelis_Church,_Hamburg</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.5483</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.97889</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Friedenskirche (Potsdam)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Church_of_Peace_%28Sanssouci%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.4008</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.0433</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Heilandskirche am Port von Sacrow</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Church_of_the_Redeemer,_Sacrow</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.4247</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.0964</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Wendisch-Deutsche Doppelkirche</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Wendish-German_double_church</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">51.7839</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">14.0725</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Garnisonkirche (Potsdam)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Garrison_Church_%28Potsdam%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.3958</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.0536</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Russisch-Orthodoxe Kirche (Wiesbaden)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/St._Elizabeth%27s_Church_%28Wiesbaden%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.0975</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.23472</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Limburger Dom</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Limburg_Cathedral</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.3889</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.06667</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Erlüserkirche (Bad Homburg)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Church_of_the_Redeemer,_Bad_Homburg</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.2265</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.61167</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Englische Kirche (Wiesbaden)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/St._Augustine%27s_of_Canterbury,_Wiesbaden</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.08</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.24611</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Elisabethkirche (Marburg)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/St._Elisabeth%27s_Church_%28Marburg%29</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.815</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.76972</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Michaelskirche (Fulda)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/St._Michael%27s_Church,_Fulda</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.5547</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.67222</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">St. Martin (Idstein)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/St._Martin,_Idstein</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.2189</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.26667</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Bonifatiuskirche (Wiesbaden)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/St._Bonifatius,_Wiesbaden</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.0794</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.23944</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Wetzlarer Dom</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Wetzlar_Cathedral</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.5558</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.50194</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Unionskirche (Idstein)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Unionskirche,_Idstein</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.2189</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.26667</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Fuldaer Dom</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Fulda_Cathedral</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.5542</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.67167</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Lutherkirche (Wiesbaden)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Luther_Church,_Wiesbaden</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.0703</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.23778</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Universitätskirche Marburg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/University_Church_of_Marburg</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.8081</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.77194</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Islamisches Zentrum Hamburg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Islamic_Centre_Hamburg</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.5746</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.0084</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Al-Quds-Moschee Hamburg</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Al-Quds_Mosque_Hamburg</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.5569</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">10.0194</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Fazle-Omar-Moschee</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Fazle_Omar_Mosque</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">53.5836</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">9.94333</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Khadija-Moschee (Berlin)</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Khadija_Mosque</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">52.5728</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">13.4308</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Moschee Sendling</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Mosque_in_Sendling</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">48.1181</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">11.5514</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="bezeichnung">
+        <literal xml:lang="de">Nuur-Moschee</literal>
+      </binding>
+      <binding name="wikilink">
+        <uri>http://en.wikipedia.org/wiki/Noor_Mosque</uri>
+      </binding>
+      <binding name="lat">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">50.0856</literal>
+      </binding>
+      <binding name="long">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#float">8.69639</literal>
+      </binding>
+    </result>
+  </results>
+</sparql>
