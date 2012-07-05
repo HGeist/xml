@@ -52,8 +52,8 @@ function doSearch($searchIn) {
 		$session = new Session("localhost", 1984, "admin", "admin");
 
 		// open test.xml
-		$session->execute("DROP DB db-crawl");
-		$session->execute("CREATE DB db-crawl gpsies_pois_part.xml");
+		//$session->execute("DROP DB db-crawl");
+		//$session->execute("CREATE DB db-crawl gpsies_pois_part.xml");
 		$session->execute("OPEN db-crawl");
 		
 		$doc = new DOMDocument();
@@ -87,17 +87,28 @@ function showResults(DOMNodeList $tracks) {
 	print('<!DOCTYPE html>
 	<html>
 		<head>
-		<title>Tracks</title>			
+			<meta charset="UTF-8" />
+			<title>Tracks</title>			
+			<link rel="stylesheet" type="text/css" href="css/styles.css">
 		</head>
-		<body">
-			<table border="1">
-				<thead>
-					<tr>
-						<th>Track Title</th> 
-						<th>CreateDate</th>	
-					</tr>
-				</thead>
-				<tbody>');
+		<body id="index">
+			<div id="wrapper">
+				<header id="header">
+					<div class="inside">
+						<h1>POInter</h1>
+						<h3>Tracks and Landmarks..</h3>
+					</div>
+				</header>
+				<div id="container">
+					<div class="inside">
+						<table border="1">
+							<thead>
+								<tr>
+									<th>Track Title</th> 
+									<th>CreateDate</th>	
+								</tr>
+							</thead>
+							<tbody>');
 				
 	// die("tracklaenge: ".$tracks->length);
 
@@ -132,14 +143,22 @@ function showResults(DOMNodeList $tracks) {
 		}
 		
 		//print a table row
-		print ('<tr>
-			<td><a href="search.php?trackId='.$fileId.'" title="'.$title.'">'.$title.'</a></td>');
-		print ('<td>'.$created.'</td></tr>');
+		print ('
+			<tr>
+				<td>
+					<a href="search.php?trackId='.$fileId.'" title="'.$title.'" target="_blank">'.$title.'</a>
+				</td>
+				<td>'.$created.'</td>
+			</tr>');
 
 	}
 	
-	print ('				</tbody>
-			</table>
+	print ('	
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
 		</body>
 	</html>');
 }
