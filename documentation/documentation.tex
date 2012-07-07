@@ -3,6 +3,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{fancyhdr}
+\usepackage{hyperref}
 \usepackage[a4paper,inner=3.5cm,outer=3cm,top=4cm,bottom=3cm,pdftex]{geometry}
 
 \setkomafont{sectioning}{\normalfont\bfseries}
@@ -38,7 +39,7 @@ Dokumentierer: Eike Cochu
 \subsection{Aufgabenstellung}
 Durch den XML-Endpoints von gpsies.com 100.000 Wanderstrecken laden, per XSLT-Schema in ein eigens entwickeltes XSD-Schema transformieren und in einer geeigneten XML-Datenbank speichern. Zu diesen Strecken soll per SPARQL der Endpoint von dbpedia.org abgefragt und alle auf (oder an) der Strecke liegenden Sehenswürdigkeiten abgefragt werden können. Ein HTML-Formular (oder ähnliches) entwickeln, mit dem die XML-Datenbank abgefragt werden kann. Das Ergebnis der Abfrage soll wiederum per XSLT in HTML transformiert und zusammen mit den vorhandenen Sehenswürdigkeiten und den zu diesen Sehenswürdigkeiten vorhandenen Tweets von Twitter.com angezeigt werden.
 
-\subsection{Aufgabenverteilung}
+\subsection{Aufgabenverteilung und -bewältigung}
 \begin{itemize}
 \item Hannes Geist: XSLT-Transformierungen und Füllen der XML-Datenbank
 \item Cenk Gündogan: Abfrage der Strecken von gpsies.org 
@@ -47,13 +48,23 @@ Durch den XML-Endpoints von gpsies.com 100.000 Wanderstrecken laden, per XSLT-Sc
 \item Michael Pluhatsch: HTML-Formular mit PHP, Abfrage der XML-Datenbank
 \end{itemize}
 
-Organisatorisches: Zur Gruppenkoordinierung hat sich unsere Gruppe jede Woche Sonntags beim Gruppenleiter Hannes Geist getroffen und das weitere Vorgehen besprochen.
+% ------------------------------------------------------------------------------
+% Teil mit den individuellen Aufgabenbeschreibungen, jeder hat seine eigene 
+% .tex-Datei! Text dazu bitte nicht hier reinschreiben
+% Inhalt eures Textes: Aufgaben, die ihr erledigt habt, wie und mit was ihr sie
+% erledigt habt, was ihr für Probleme hattet usw.
+\include{hannes}
+\include{cenk}
+\include{eike}
+\include{sam}
+\include{michael}
+% ------------------------------------------------------------------------------
 
-\section{Probleme}
+Organisatorisches: Zur Gruppenkoordinierung hat sich unsere Gruppe jede Woche Sonntags beim Gruppenleiter Hannes Geist getroffen und das weitere Vorgehen besprochen.
 
 \section{Datenbank-Info}
 Verwendete Datenbanksoftware: BaseX XML-Datenbank
-Anzahl der vorhandenen Datensätze:
+Anzahl der vorhandenen Datensätze: 100.000
 
 
 \end{document}
