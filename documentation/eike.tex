@@ -1,6 +1,27 @@
 \subsubsection{Eike Cochu}
-Aufgabenbereich: Erstellung eines XSD-Schemas für die XML-Datenbank, Bereitstellung des Datenbank- und Applikationsservers sowie Installation der Datenbank, Einfügen der Inhalte in die Datenbank und Installation der Webseite, kleine kosmetische Änderungen an der Webseite und Formatierung.
+Aufgabenbereich: Erstellung eines XSD-Schemas für die XML-Datenbank, Bereitstellung des Datenbank- und Applikationsservers sowie Installation der Datenbank, Einfügen der Inhalte in die Datenbank und Installation der Webseite, kleine kosmetische Änderungen an der Webseite und Formatierung, Erstellen der Dokumentation.
 
-Zum XSD-Schema: Nachdem wir uns mit einem kurzen Testlauf einige Anschauungsdaten von gpsies.org beschafft hatten, konnten wir basierend darauf grob die Anforderungen an das XSD-Schema entwerfen. Die Idee des Schemas sollte es sein, mehr mit Attributen zu arbeiten und so die Anzahl an Elementen zu verringern, damit die Speichergröße der resultierenden Dateien minimal gehalten wird. Dazu haben wir uns entschlossen, einige weniger wichtige Datenteile der crawl-Daten garnicht erst mit in die Datenbank zu speichern, im Schema waren diese dann auch nicht vorgesehen. Die meisten Elemente sind mittels minOccurs=0 ebenfalls optional gehalten, Attribute sind per default optional.
+\paragraph{XSD-Schema}
+Nachdem wir uns mit einem kurzen Testlauf einige Anschauungsdaten von gpsies.org beschafft hatten, konnten wir basierend darauf grob die Anforderungen an das XSD-Schema entwerfen. Die Idee des Schemas sollte es sein, mehr mit Attributen zu arbeiten und so die Anzahl an Elementen zu verringern, damit die Speichergröße der resultierenden Dateien minimal gehalten wird. Dazu haben wir uns entschlossen, einige weniger wichtige Datenteile der crawl-Daten garnicht erst mit in die Datenbank zu speichern, im Schema waren diese dann auch nicht vorgesehen. Die meisten Elemente sind mittels minOccurs=0 ebenfalls optional gehalten, Attribute sind per default optional.
 
+Zur Veranschauung ein kleiner Ausschnitt aus dem Schema:
+
+\begin{lstlisting}[language=XML]
+<!-- Eine Adresse. Optional: alles -->
+<xsd:complexType name="address">
+  <xsd:attribute name="street" type="xsd:string"/>
+  <xsd:attribute name="streetnumber" type="xsd:string"/>
+  <xsd:attribute name="zipcode" type="xsd:string"/>
+  <xsd:attribute name="city" type="xsd:string"/>
+  <xsd:attribute name="country" type="xsd:string"/>
+</xsd:complexType>
+\end{lstlisting}
+
+Hier ist zu sehen, dass in unserem Schema hauptsächlich Attribute verwendet werden, um die Anzahl an Elementen zu verringern. Auch sind Attribute standardmäßig optional, was bei Elementen erst hätte eingerichtet werden müssen.
+
+Beim Schema sind wir auf keine Probleme gestoßen. Das XSD erlaubt es auf einfache Art und Weise ein sehr dynamisches Schema zu erstellen, dass wir im Prozess der Entwicklung aufgrund von neuen Erkenntnissen immer wieder verädert haben, bis es allen Anforderungen entsprach. Die Validierung des Schemas wurde mit einem gewöhnlichen XSD-Schemavalidierer durchgeführt, der unser Schema mit dem eigentlichen XSD-Schema validieren konnte.
+
+\paragraph{Datenbank}
 Wir haben uns für BaseX als Datenbank entschieden, da dieses auf Java basiert und somit systemunabhängig installierbar und auch leicht zu handhaben ist. Die Datenbank wurde auf einem dedizierten Ubuntu 12.04 Server installiert, als Webserver wurde Apache + PHP 5 gewählt.
+
+Probleme mit der Datenbank: Da das entgültige Datenbankfile eine Größe von ~1.2 GB hatte und der Heapspeicher der JVM default sehr klein ist, trat beim Erstellen der Datenbank immer ein Out Of Memory Fehler auf, den ich erst mit dem manuellen hochsetzen des Heapspeichers beheben konnte ({\tt java -cp basex.jar org.basex.BaseXServer -Xmx1G}). Bei genauerer Untersuchung habe ich herausgefunden, dass dieser Speicherfehler speziell durch die Volltextindizierung ausgelöst wird, die auch gezieht ausgeschaltet werden kann. 

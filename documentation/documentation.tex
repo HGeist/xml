@@ -24,6 +24,27 @@
 \setlength\parskip{\medskipamount}
 \setlength\parindent{0pt}
 
+\RequirePackage[usenames,dvipsnames]{color}
+\RequirePackage{listings}
+\lstset{
+  language=Java,
+  basicstyle=\ttfamily\small,
+  numbers=left,
+  numberstyle=\tiny,
+  numbersep=5pt,
+  tabsize=2,
+  showstringspaces=false,
+  extendedchars=true,
+  breaklines=true,
+  showtabs=false,
+  showspaces=false,
+  keywordstyle=\color{orange},
+  commentstyle=\color{ForestGreen},
+  stringstyle=\color{blue},
+  escapechar=@,
+  morekeywords={bool,iffalse}
+}
+
 \begin{document}
 \maketitle
 \thispagestyle{empty}
@@ -34,18 +55,22 @@
 \selectfont
 
 \section{Aufgabenstellung und Organisation}
-Gruppenleiter: Hannes Geist\\
-Dokumentierer: Eike Cochu
+Gruppenleiter: Hannes Geist
 
 \subsection{Aufgabenstellung}
 Durch den XML-Endpoints von gpsies.com 110.000 Wanderstrecken laden, per XSLT-Schema in ein eigens entwickeltes XSD-Schema transformieren und in einer geeigneten XML-Datenbank speichern. Zu diesen Strecken soll per SPARQL der Endpoint von dbpedia.org abgefragt und alle auf (oder an) der Strecke liegenden Sehenswürdigkeiten abgefragt werden können. Ein HTML-Formular (oder ähnliches) entwickeln, mit dem die XML-Datenbank abgefragt werden kann. Das Ergebnis der Abfrage soll wiederum per XSLT in HTML transformiert und zusammen mit den vorhandenen Sehenswürdigkeiten und den zu diesen Sehenswürdigkeiten vorhandenen Tweets von Twitter.com angezeigt werden.
 
+\subsection{Organisatorisches}
+Zur Gruppenkoordinierung hat sich unsere Gruppe jede Woche Sonntags beim Gruppenleiter Hannes Geist getroffen und das weitere Vorgehen besprochen und gemeinsam an den einzelnen Softwarekomponenten gearbeitet. Diese Dokumentation ist gemeinsam entstanden, wobei jeder seinen Aufgabenteil beschrieben und etwaige Probleme, die im Verlauf der Bearbeitung auftraten, aufgezählt und ausgeführt hat.
+
+Die endgültigen Ergebnisse sind momentan noch unter \href{http://cochu.dyndns.org/xml} erreichbar.
+
 \subsection{Aufgabenverteilung und -bewältigung}
 \begin{itemize}
-\item Hannes Geist: XSLT-Transformierungen und Füllen der XML-Datenbank
-\item Cenk Gündogan: Abfrage der Strecken von gpsies.org 
 \item Eike Cochu: Erstellung des XSD-Schemas, Bereitstellung eines Servers, Dokumentation
 \item Samer El-Safadi: SPARQL-Abfrage der Sehenswürdigkeiten von dbpedia.org
+\item Hannes Geist: XSLT-Transformierungen und Füllen der XML-Datenbank
+\item Cenk Gündogan: Abfrage der Strecken von gpsies.org 
 \item Michael Pluhatsch: HTML-Formular mit PHP, Abfrage der XML-Datenbank
 \end{itemize}
 
@@ -54,18 +79,15 @@ Durch den XML-Endpoints von gpsies.com 110.000 Wanderstrecken laden, per XSLT-Sc
 % .tex-Datei! Text dazu bitte nicht hier reinschreiben
 % Inhalt eures Textes: Aufgaben, die ihr erledigt habt, wie und mit was ihr sie
 % erledigt habt, was ihr für Probleme hattet usw.
-\include{hannes}
-\include{cenk}
-\include{eike}
-\include{sam}
-\include{michael}
+\input{eike}
+\input{sam}
+\input{hannes}
+\input{cenk}
+\input{michael}
 % ------------------------------------------------------------------------------
 
-Organisatorisches: Zur Gruppenkoordinierung hat sich unsere Gruppe jede Woche Sonntags beim Gruppenleiter Hannes Geist getroffen und das weitere Vorgehen besprochen und gemeinsam an den einzelnen Softwarekomponenten gearbeitet.
+\section{Abschließende Präsentation}
 
-\section{Datenbank-Info}
-Verwendete Datenbanksoftware: BaseX XML-Datenbank
-Anzahl der vorhandenen Datensätze: 110.000
-
+%Hier muss die Präsi vom Freitag rein.
 
 \end{document}
