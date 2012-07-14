@@ -1,1 +1,73 @@
 \subsubsection{Cenk Gündogan}
+Aufgabenbereich: Entwerfen und Implementieren eines Crawlers, 
+der mind. 100.000 Tracks vom gpsies.org Server herunterlädt und lokal in einer gültigen 
+XML-Datei abspeichert.\\
+
+Bei der Entwicklung des Crawlers wurden die Eigenschaften "`Stabilität"' und "`Schnelligkeit"' sehr
+hoch priorisiert. "`Stabilität"' bedeutet, dass der Crawler bei Verbindungsabbrüchen weiter arbeiten
+kann und als Resultat immer noch eine korrekte XML-Datei mit gültigem Inhalt produziert wird.
+"`Schnelligkeit"' des Crawlers wird durch Parallelisierung des Verbindungsaufbaus zum Server gewährleistet.
+Eine weitere nennenswerte Eigenschaft ist die Tatsache, dass das Resultat des Crawlers in komprimierter
+Form (mit gzip) erstellt wird. Das Ergebnis ist dann sehr einfach und unproblematisch auf verschiedene
+Rechner übertragbar.\\
+
+Die Anfragen an den Server geschehen via Http POST und sehen folgendermaßen aus:
+
+\begin{tabular}{|c|p{10cm}|}
+  \hline
+    key		&	der API-Key wurde von gpsies.org bereitgestellt. Ohne diesen ist eine Anfrage
+			an den Server nicht möglich\\\hline
+    country	&	wir beschränken uns nur auf Tracks aus Deutschland\\\hline
+    filetype	&	Als Dateityp der GPS-Daten erwarten wir KML\\\hline
+    limit	&	es sollen \textbf{limit} viele Track-Ids übertragen werden\\\hline
+    resultpage	&	pro Query können immer nur 100 Tracks übermittelt werden, mit
+			inkrementierender \textbf{resultpage} kann man die nächsten 
+			100 Tracks abfragen\\\hline
+\end{tabular}
+
+\begin{enumerate}
+  \item URL1: \textit{http://www.gpsies.org/api.do?\textbf{key}=<key>\&\textbf{country}=DE\&
+	\textbf{limit}=100\&\textbf{resultpage}=i}\\
+	Es werden die \textbf{i.}en 100 Tracks geladen
+  \item URL2: \textit{http://www.gpsies.org/api.do?\textbf{key}=<key>\&\textbf{limit}=100
+    \&\textbf{filetype}=kml\&\textbf{fileId}=f1\&\textbf{fileId}=f2\ldots}\\
+	Die 100 TrackIds, die mit URL1 erfragt wurden, werden nun alle an die 2. URL angefügt.
+	Mit URL2 erhalten wir detaillierte Informationen zu jedem Track
+\end{enumerate}
+
+Zur Realisierung des Crawlers wurde ein Maven-Projekt erstellt und zur leichten Handhabung
+der REST-Abfragen der HttpClient von org.apache.httpcomponents benutzt. Die Programmiersprache ist Java.
+
+Der Crawler besteht aus zwei Hauptkomponenten, dem Master und die Worker.
+Zuerst wird vom Master ein komprimierter Output-Stream(gzip), verknüpft mit einer lokalen Datei, geöffnet.
+Der Master stellt nun in einer Schleife, die von \textbf{i=0} bis \textbf{i=\textit{iterations}} geht,
+die Anfrage (URL1) an den Server, um die \textbf{i.}en 100 TrackIds zu erhalten. Aus der Response des
+Servers werden mittels regular expression die einzelnen TrackIds heraus gefiltert. Mit den erhaltenen
+TrackIds kann nun die zweite Abfrage an den Server gestellt werden (URL2), um detaillierte Informationen
+zu jedem Track zu erhalten. Diese zweite Response wird nun wieder mittels regular expression 
+nach Tracks untersucht. Bei jedem Fund eines Tracks, wird ein Worker erzeugt und 
+diesem der gefundene Track übergeben.
+Der Master wiederholt diesen Prozess bis keine weiteren Tracks in der Response gefunden werden und
+wartet auf die Terminierung aller Worker. Wenn alle Worker terminiert sind, entsteht ein 
+gültiger XML-Abschnitt, der in den komprimierten Output-Stream geschrieben und geflusht werden kann.
+Nun beginnt die nächste Iteration des Masters und dieser Prozess führt sich fort, bis 
+\textbf{i=iterations} erreicht ist.
+
+Wird ein Worker erstellt und ihm ein Track übergeben, wird der Download-Link der KML-Datei dieses Tracks
+via regular expressions heraus gefiltert. Die KML-Datei wird mit einem InputStreamReader geöffnet und
+die enthaltenen Koordinaten ausgelesen. Wir entschieden uns hierbei für eine "`nimm jede 10."'-Politik,
+da es überaus viele, sehr dicht beieinander liegende, Koordinaten zur Verfügung gab.
+Zum Beenden des Workers wird der Track samt ausgelesener Koordinaten an den Master übergeben.
+
+Das Resultat ist eine komprimierte XML-Datei mit 100.000 Tracks + Koordinaten. Die Größe der Datei
+liegt bei ungefähr $\sim$200MB. Entpackt liegt die Größe bei $\sim$1.1GB.
+Die ideale Crawl-Dauer liegt bei $\sim$3.5h-4h\\
+
+Aufruf des Crawlers: java -jar ./crawler "`api-key"' "`/path/to/file.xml.gz"' "`number of iterations"'\\
+Die Dateiendung muss "`gz"' sein, da eine komprimierte Datei erzeugt wird. Eine Iteration beinhaltet 
+im besten Fall 100 Tracks, so erhält man bei 1000 Iterationen 100.000 Tracks.\\
+
+Probleme: Das schwerwiegenste Problem war die Tatsache, dass der Crawler aufgrund von langen Ausfallzeiten
+seitens des Servers nicht genügend Tracks produzieren konnte und durch viele Timeouts um mehrere Stunden
+verlangsamt wurde.
+
