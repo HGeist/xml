@@ -1,1 +1,72 @@
 \subsubsection{Samer El-Safadi}
+Bei der Aufgabe die XML-Datenbank um relevante "Points of interest"-Daten
+zu erweitern, sind wir uns sehr schnell einig gewesen, uns auf Deutschland
+zu konzentrieren und sämtliche andere Länder außer Acht zu lassen.\\
+
+Um an jene Punkte zu kommen, mussten wir uns erst einmal über die
+Abfragesprache SPARQL informieren. Dies haben wir größtenteils über das
+Buch "Learning SPARQL" von Bob DuCharme getan, in dem sowohl allgemeine
+Informationen über die Materie (sprich das "Semantic Web", RDF, Linked
+Data etc.), als auch spezielle Situationen dargestellt sind, die über
+SPAQL-Abfragen anschaulich bearbeitet werden. Praktischerweise beziehen
+sich einige der Beispiele direkt auf DBpedia, wodurch wir das Geschriebene
+auch gleich testen konnten.\\
+
+Nachdem wir damit nun eigene Abfragekonstrukte erstellen konnten, die wir
+über den Online-Zugriff ausprobiert haben, ging es nun darum den
+SPARQL-Endpoint nun auch über Java ansprechen zu können. Schnell fiel die
+Wahl auf das Jena Framework von Apache, welches uns einen sehr
+komfortablen Weg ermöglichte über ARQ auf den entsprechenden Endpunkt
+zuzugreifen: Wir konnten also durch die QueryFactory entsprechende
+Anfragen erstellen und diese über QueryExecutionFactory.sparqlService an
+einen definierten Service (in diesem Fall DBpedia) senden.\\
+
+Das Programm machte uns durch Warnungen darauf aufmerksam, dass kein
+Logger eingerichtet worden ist. Wir behoben dies gleich und integrierten
+log4j (ebenfalls Apache), um die Ergebnisse der Anfrage in ein Logfile zu
+schreiben, statt es nur (testweise) in die Standardausgabe zu packen.
+Als dies erledigt war, konnten wir über die Ergebnisse (ResultSet)
+iterieren (.hasNext() bzw. .next()) und diese dann über den Logger direkt
+in eine Datei schreiben.
+
+Da das Ergebnis allerdings ein XML-Dokument sein sollte, um es über XSLT
+entsprechend einfach umzuwandeln, mussten wir erstmal eine Art Parser
+schreiben, der über die Iteration der Ergebnisse ein wohl geformtes
+XML-Dokument erstellt.
+
+Dies funktionierte zwar, stellte sich allerdings als sehr aufwendig
+heraus, so dass wir uns nach einer neuen Lösung umgesehen haben: Jenas
+ResultSetFormatter.outputAsXML war die perfekte Lösung unserer Probleme.\\
+
+Wir mussten entsprechend umdisponieren, haben den log4j-Logger wieder
+entfernt und entsprechend mit dem Fileoutputstream gearbeitet, den wir
+komfortabel über den ResultSetFormatter von Jena dazu bringen konnten uns
+die Ergebnisse in eine sehr übersichtliche XML-Datei zu parsen.\\
+
+Nun stand das Programm und es ging darum unsere Abfragekonstrukte durch
+sinnvolle Abfragen zu ersetzen. Dafür mussten wir viel Zeit investieren,
+um uns erst einmal einen Überblick zu verschaffen, wie die Datensätze in
+der DBpedia angeordnet waren. Wir merkten schnell, dass die englische
+DBpedia weitaus weniger relevante Daten über Deutschland enthielt, als die
+deutsche - die allerdings wiederum weitaus weniger GEO-Datensätze über die
+entsprechenden Objekte enthielt (vergleiche http://de.dbpedia.org/page/Brandenburger\_Tor\\
+mit http://dbpedia.org/page/Brandenburg\_Gate).\\
+
+Außerdem mussten wir feststellen, dass viele Objekte oftmals falsch bzw.
+scheinbar keiner Regel folgend in entsprechende Typen eingeordnet wurden
+und alles doch recht chaotisch war, sodass wir nicht einfach eine große
+Anfrage starten konnten und die Ergebnisse anschließend anhand ihrer Typen
+zuordnen konnten. Wir verbrachten viel Zeit damit die yago-Sprachklasse
+bzw. die Kategorien von DBpedia zu studieren, um entsprechend gezielte
+Anfragen zu stellen. Mindestvoraussetzung eines Objektes war für uns die
+Bezeichnung, Geo-Daten in Form von long und lat sowie ein Link zum
+entsprechenden Wikipedia-Artikel, damit der Nutzer sich weitere
+Informationen einholen konnte.\\
+
+Durch dieses Vorgehen waren wir in der Lage Anfragen zu entwickeln, die
+relativ schnell abgearbeitet wurden und wir wussten genau, um welche
+Untermenge es sich bei den Ergebnissen handelte, sodass wir dies
+entsprechend in der Datenbank vermerken konnten. Dadurch konnten wir die
+Website entsprechend so einrichten, dass der Nutzer es sich einzeln
+aussuchen konnte, ob dieser Parks, Seen etc. angezeigt bekommen wollte
+oder nicht.
