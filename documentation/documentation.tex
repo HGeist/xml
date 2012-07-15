@@ -5,6 +5,7 @@
 \usepackage{fancyhdr}
 \usepackage{hyperref}
 \usepackage{listings}
+\usepackage{graphicx}
 \usepackage[a4paper,inner=3.5cm,outer=3cm,top=4cm,bottom=3cm,pdftex]{geometry}
 
 \setkomafont{sectioning}{\normalfont\bfseries}
@@ -63,7 +64,7 @@ Durch den XML-Endpoints von gpsies.com 110.000 Wanderstrecken laden, per XSLT-Sc
 \subsection{Organisatorisches}
 Zur Gruppenkoordinierung hat sich unsere Gruppe jede Woche Sonntags beim Gruppenleiter Hannes Geist getroffen und das weitere Vorgehen besprochen und gemeinsam an den einzelnen Softwarekomponenten gearbeitet. Diese Dokumentation ist gemeinsam entstanden, wobei jeder seinen Aufgabenteil beschrieben und etwaige Probleme, die im Verlauf der Bearbeitung auftraten, aufgezählt und ausgeführt hat.
 
-Die endgültigen Ergebnisse sind momentan noch unter \href{http://cochu.dyndns.org/xml} erreichbar.
+Die endgültigen Ergebnisse sind momentan noch unter \href{http://cochu.dyndns.org/xml} erreichbar, die Präsentationen der Meilensteine sind als PDF beigelegt.
 
 \subsection{Aufgabenverteilung und -bewältigung}
 \begin{itemize}
@@ -98,5 +99,15 @@ $ > create db db-crawl <input-file.xml>
 erstellt und der Datenbankserver gestartet. Erst dann kann das PHP-Script der Hauptseite auf die Datenbank zugreifen.
 
 Als Systemvoraussetzungen gelten eine Mindestmenge von 2GB RAM für das Erstellen und effiziente Durchsuchen der Datenbank.
+
+\section{Systembeschreibung}
+
+\includegraphics[width=\textwidth]{run_once_schema.png}
+
+Datenbank (1): Der Crawler fragt die Tracks und deren KML-Geopoints per REST-Anfragen bei gpsies.org an und speichert diese zusammen in einer Datei. Ein weiterer Crawler (3) fragt die POI-Daten der dbpedia per SPARQL ab und speichert diese in nach Art des POIs getrennten XML-Dokumenten ab. Dann wird das XML-Dokument mit den Tracks durchlaufen und zu jedem Track die entsprechenden POIs aus den POI-Dokumenten hinzugefügt. Per XSLT-Stylesheet (2) wird diese Datei dann in unser XSD-Schema transformiert. Das so entstandene schemakonforme XML-Dokument wird zur Erstellung der XML-Datenbank benutzt (manuell).
+
+Oberfläche: Per PHP wird eine Anfrage an den Datenbankserver gestellt, das Ergebnis wird wiederum durch PHP interpretiert und als Ergebnis auf der Suchseite dargestellt, die im Track enthaltenen KML-Geopunkte werden über ein Plugin an Google Maps übergeben, wodurch auf der Karte eine visuelle Darstellung des Tracks entsteht.
+
+\input{usage.tex}
 
 \end{document}
