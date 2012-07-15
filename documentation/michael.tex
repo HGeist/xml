@@ -1,1 +1,8 @@
 \subsubsection{Michael Pluhatsch}
+
+Die Weboberfläche, index.html, besteht aus einem Formular mit einem Textfeld, in das man ein Stichwort eingeben kann. Nach diesem wird später in den Titeln der Tracks in der Datenbank gesucht. Man kann per Checkboxes auswählen welche POIs man sehen möchte und auf den Suchschalter klicken.
+
+Die search.php erhält von der index.html per POST den Suchbegriff und startet eine Session und instaziiert ein Objekt der Hilfklasse Session aus BaseXClient.php, die die Kommunikation mit dem BaseX Server schachtelt. Der Datenbankserver BaseX wird nach track-Elementen abgefragt, bei denen das Suchwort im Kindelement trackName vorkommt. Die Ergebnisse werden als HTML-Tabelle mit den Spalten Track Title und CreateDate zurückgegeben.
+
+Der jeweilige Track Title in der HTML-Tabelle enthält einen Link auf die search.php selbst mit der trackId als URL-Parameter. Klickt der Nutzer nun auf einen der Track-Links wird die search.php erneut mit der trackId als GET-Parameter aufgerufen und in der Funktion showTrack dieser Track noch einmal komplett vom Datenbankserver abgefragt. Aus dem Ergebnis wird eine Seite mit eingebundenen Google Maps Javascripten erzeugt und neben den bereits vorhandenen Markern und der Verbindungslinie zwischen ihnen aus dem mit dem Track verbunden KML-file werden die POIs, in dieser Version, als gewöhnliche Marker hinzugefügt. Der Nutzer sieht als Ergebnis eine Google Map, die den gesamten Track anzeigt und POI-Marker, deren Name beim Hovern mit der Maus über diesen angezeigt wird.
+
