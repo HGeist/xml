@@ -86,8 +86,17 @@ Die endgültigen Ergebnisse sind momentan noch unter \href{http://cochu.dyndns.o
 \input{michael}
 % ------------------------------------------------------------------------------
 
-\section{Abschließende Präsentation}
+\section{Installation und Systemvoraussetzungen}
 
-%Hier muss die Präsi vom Freitag rein.
+Zur Installation wird ein Webserver + PHP und BaseX als XML-Datenbankserver benötigt. Die web-Dateien gehören in ein Unterverzeichnis in den Documentroot des Webservers. Die Datenbank wird mittels
+\begin{verbatim}
+$ java -cp basex.jar org.basex.BaseXServer -Xmx1G
+$ java -cp basex.jar org.basex.BaseXClient
+$ > create db db-crawl <input-file.xml>
+\end{verbatim}
+
+erstellt und der Datenbankserver gestartet. Erst dann kann das PHP-Script der Hauptseite auf die Datenbank zugreifen.
+
+Als Systemvoraussetzungen gelten eine Mindestmenge von 2GB RAM für das Erstellen und effiziente Durchsuchen der Datenbank.
 
 \end{document}
